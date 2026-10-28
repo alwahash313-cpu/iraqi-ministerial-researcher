@@ -1,45 +1,41 @@
 
-import os
-import re
-import time
-from datetime import datetime
-from email.utils import parsedate_to_datetime
-from urllib.parse import quote_plus
-from zoneinfo import ZoneInfo
-
 import feedparser
+from urllib.parse import quote_plus
+from datetime import datetime
+from pathlib import Path
+import re
+import html
 
 SUBJECTS = {
-    "اللغة العربية": ["عربي", "قواعد", "أدب"],
-    "اللغة الإنكليزية": ["انكليزي", "إنكليزي"],
+    "اللغة العربية": ["عربي", "قواعد", "أدب", "إنشاء"],
+    "اللغة الإنكليزية": ["إنكليزي", "انكليزي", "English"],
     "الرياضيات": ["رياضيات"],
     "الكيمياء": ["كيمياء"],
     "الفيزياء": ["فيزياء"],
     "الأحياء": ["أحياء", "احياء"],
     "الاجتماعيات": ["اجتماعيات", "تاريخ", "جغرافية", "وطنية"],
     "الإسلامية": ["إسلامية", "اسلامية"],
-    "اللغة الكردية والمواد الأخرى": ["كردي", "علوم"],
+    "اللغة الكردية": ["كردي", "كردية"],
 }
 
-PLATFORMS = [
-    ("الويب العام", ""),
-    ("فيسبوك", "site:facebook.com"),
-    ("إنستغرام", "site:instagram.com"),
-    ("تيليغرام", "site:t.me"),
+EXCLUDE_TERMS = [
+    "السادس الابتدائي",
+    "السادس الاعدادي",
+    "السادس الإعدادي",
+    "السادس العلمي",
+    "السادس الادبي",
+    "السادس الأدبي",
+    "الثالث الابتدائي",
+    "الاول المتوسط",
+    "الأول المتوسط",
+    "الثاني المتوسط",
+    "الرابع العلمي",
+    "الخامس العلمي",
 ]
 
-def clean(value):
-    return re.sub(r"\s+", " ", str(value or "")).strip()
-
-def get_date(entry):
-    for field in ("published", "updated"):
-        try:
-            value = entry.get(field)
-            if value:
-                return parsedate_to_datetime(value).strftime("%Y-%m-%d")
-        except Exception:
-            pass
-    return "تاريخ النشر غير متاح"
+def clean(text):
+    text = html.unescape(text or "")
+    return re.sub(r"<[^>]+>", "", text).strip()
 
 def search(query):
     url = (
@@ -48,74 +44,65 @@ def search(query):
         + "&hl=ar&gl=IQ&ceid=IQ:ar"
     )
     feed = feedparser.parse(url)
-    results = []
+    return feed.entries
 
-    for entry in feed.entries[:8]:
-        link = clean(entry.get("link"))
-        title = clean(entry.get("title"))
-        if not link or not title:
-            continue
+def is_third_intermediate(title, summary=""):
+    text = (title + " " + summary).lower()
 
-        source = entry.get("source", {})
-        if not isinstance(source, dict):
-            source = {}
+    required_terms = [
+        "الثالث المتوسط",
+        "ثالث متوسط",
+        "الثالث متوسط",
+        "ثالث المتوسط",
+    ]
 
-        results.append({
-            "title": title,
-            "link": link,
-            "date": get_date(entry),
-            "source": clean(source.get("title", "")) or "غير محدد",
-        })
+    if not any(term in text for term in required_terms):
+        return False
 
-    return results
+    if any(term in text for term in EXCLUDE_TERMS):
+        return False
+
+    return True
 
 def classify(title):
     text = title.lower()
+
     if any(word in text for word in [
-        "وزاري", "وزاريات", "الدور الأول", "الدور الاول",
-        "الدور الثاني", "تمهيدي"
+        "وزاري", "وزاريات", "اسئلة وزارية", "أسئلة وزارية"
     ]):
-        return "أسئلة وزارية محتملة - تحقق من السنة والمصدر"
-    return "مرشحات أو مراجعة - غير مؤكدة"
+        return "وزاريات"
+
+    if any(word in text for word in [
+        "مرشحات", "مرشحة", "المرشحات"
+    ]):
+        return "مرشحات غير مضمونة"
+
+    if any(word in text for word in [
+        "حلول", "حل اسئلة", "حل أسئلة", "اجوبة", "أجوبة"
+    ]):
+        return "حلول وأسئلة"
+
+    if any(word in text for word in [
+        "مراجعة", "ملخص", "ملزمة"
+    ]):
+        return "مراجعات وملخصات"
+
+    return "نتيجة تحتاج مراجعة"
 
 def main():
-    os.makedirs("reports", exist_ok=True)
-    now = datetime.now(ZoneInfo("Asia/Baghdad"))
-
-    output = [
-        "# باحث الوزاريات والمرشحات - الثالث المتوسط العراقي",
-        "",
-        f"آخر بحث: {now:%Y-%m-%d %H:%M} بتوقيت بغداد",
-        "",
-        "مصدر البحث: Google News RSS.",
-        "تُجرّب عبارات مخصصة للويب وفيسبوك وإنستغرام وتيليغرام.",
-        "هذه الطريقة لا تضمن ظهور جميع منشورات المنصات.",
-        "التصنيف آلي أولي ولا يثبت أن السؤال رسمي أو أن المرشح صحيح.",
-        "",
-    ]
-
+    today = datetime.now().strftime("%Y-%m-%d")
+    results = []
     seen = set()
-    total = 0
 
     for subject, keywords in SUBJECTS.items():
-        output.extend([f"## {subject}", ""])
-        subject_count = 0
-
-        queries = []
         for keyword in keywords:
-            queries.append(
-                f'"الثالث المتوسط" العراق {keyword} '
-                f'(وزاريات OR مرشحات OR مراجعة OR امتحانات)'
+            query = (
+                f'"الثالث المتوسط" العراق "{keyword}" '
+                f'(وزاريات OR مرشحات OR مراجعة OR امتحانات OR حلول) '
+                f'-"السادس الإعدادي" -"السادس الابتدائي" '
+                f'-"الأول المتوسط" -"الثاني المتوسط"'
             )
 
-            for platform, domain in PLATFORMS[1:]:
-                queries.append(
-                    f'site:{domain.split(":")[1]} '
-                    f'"الثالث المتوسط" العراق {keyword} '
-                    f'(وزاريات OR مرشحات OR مراجعة)'
-                )
-
-        for query in queries:
             try:
                 entries = search(query)
             except Exception as error:
@@ -123,45 +110,86 @@ def main():
                 continue
 
             for entry in entries:
-                link = entry["link"]
+                title = clean(entry.get("title", ""))
+                summary = clean(entry.get("summary", ""))
+                link = entry.get("link", "")
+
+                if not title or not link:
+                    continue
+
+                if not is_third_intermediate(title, summary):
+                    continue
+
                 if link in seen:
                     continue
 
                 seen.add(link)
-                subject_count += 1
-                total += 1
 
-                output.extend([
-                    f"### {subject_count}. {entry['title']}",
-                    f"- التصنيف: {classify(entry['title'])}",
-                    f"- المصدر: {entry['source']}",
-                    f"- تاريخ النشر: {entry['date']}",
-                    f"- عبارة البحث: {query}",
-                    f"- الرابط: {link}",
-                    "",
-                ])
+                published = entry.get(
+                    "published",
+                    "التاريخ غير متوفر"
+                )
 
-            time.sleep(1)
+                results.append({
+                    "subject": subject,
+                    "title": title,
+                    "link": link,
+                    "published": published,
+                    "type": classify(title),
+                })
 
-        if subject_count == 0:
+    output = [
+        "# الباحث الوزاري العراقي",
+        "",
+        "## نتائج الثالث المتوسط العراقي فقط",
+        "",
+        f"تاريخ التقرير: {today}",
+        "",
+        "> البحث يجمع نتائج عامة من Google News RSS. "
+        "المرشحات غير مؤكدة ويجب التحقق من المصادر.",
+        "",
+    ]
+
+    if not results:
+        output.extend([
+            "لم تظهر نتائج مطابقة للشروط في هذا البحث.",
+            "قد توجد مواد منشورة لم تظهر بسبب حدود البحث.",
+            "",
+        ])
+
+    for subject in SUBJECTS:
+        subject_results = [
+            item for item in results
+            if item["subject"] == subject
+        ]
+
+        output.extend([f"## {subject}", ""])
+
+        if not subject_results:
             output.extend([
-                "لم تظهر نتائج بهذه العبارات في البحث الحالي.",
+                "لم تظهر نتائج مطابقة حالياً.",
+                "",
+            ])
+            continue
+
+        for item in subject_results:
+            output.extend([
+                f"### {item['title']}",
+                f"- التصنيف: {item['type']}",
+                f"- تاريخ النشر: {item['published']}",
+                f"- الرابط: {item['link']}",
                 "",
             ])
 
-    output.extend([
-        "---",
-        f"عدد الروابط الفريدة: {total}",
-        "",
-        "تنبيه: عدم ظهور نتائج لا يعني عدم وجود منشورات.",
-        "قد لا تكون بعض المنشورات العامة مفهرسة، ولا يشمل البحث",
-        "المجموعات الخاصة أو المحتوى المحجوب عن الوصول العام.",
-    ])
+    Path("reports").mkdir(exist_ok=True)
+    Path("reports/latest.md").write_text(
+        "\n".join(output),
+        encoding="utf-8"
+    )
 
-    with open("reports/latest.md", "w", encoding="utf-8") as file:
-        file.write("\n".join(output))
-
-    print(f"انتهى البحث. عدد الروابط الفريدة: {total}")
+    print(
+        f"اكتمل البحث. عدد النتائج المطابقة: {len(results)}"
+    )
 
 if __name__ == "__main__":
     main()
