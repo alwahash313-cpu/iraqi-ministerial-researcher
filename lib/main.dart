@@ -1,5 +1,8 @@
 
+import 'dart:async';
 import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -71,38 +74,69 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> loadResults() async {
+    if (loading) return;
+
     setState(() {
       loading = true;
       error = null;
     });
 
     try {
-      final response = await http
-          .get(Uri.parse(reportUrl))
-          .timeout(const Duration(seconds: 20));
+      final uri = Uri.parse(reportUrl).replace(
+        queryParameters: {
+          'refresh': DateTime.now().millisecondsSinceEpoch.toString(),
+        },
+      );
+
+      final response = await http.get(
+        uri,
+        headers: const {
+          'Accept': 'application/json',
+          'Cache-Control': 'no-cache',
+        },
+      ).timeout(const Duration(seconds: 30));
 
       if (response.statusCode != 200) {
-        throw Exception('تعذر العثور على تقرير النتائج');
+        throw Exception(
+          'خادم GitHub رجّع رمز HTTP ${response.statusCode}',
+        );
       }
 
-      final decoded = jsonDecode(utf8.decode(response.bodyBytes));
+      final decoded = jsonDecode(
+        utf8.decode(response.bodyBytes),
+      );
 
-      if (decoded is! Map<String, dynamic>) {
-        throw Exception('صيغة التقرير غير صحيحة');
+      if (decoded is! Map) {
+        throw const FormatException(
+          'التقرير ليس بصيغة JSON المتوقعة',
+        );
+      }
+
+      final parsed = Map<String, dynamic>.from(decoded);
+
+      if (parsed['results'] is! List) {
+        throw const FormatException(
+          'ملف التقرير لا يحتوي على قائمة results صحيحة',
+        );
       }
 
       if (!mounted) return;
 
       setState(() {
-        results = decoded;
-        updatedAt = decoded['updated_at']?.toString() ?? '';
+        results = parsed;
+        updatedAt = parsed['updated_at']?.toString() ?? '';
+        error = null;
       });
-    } catch (_) {
-      if (!mounted) return;
-      setState(() {
-        error =
-            'ما قدرنا نحمل النتائج حالياً.\nتأكد من اتصال الإنترنت وحاول مرة ثانية.';
-      });
+    } on SocketException catch (e) {
+      _setError('تعذر الاتصال بالشبكة: ${e.message}');
+    } on TimeoutException {
+      _setError(
+        'انتهت مهلة الاتصال. جرّب شبكة إنترنت أخرى ثم أعد المحاولة.',
+      );
+    } on FormatException catch (e) {
+      _setError('مشكلة بصيغة التقرير: ${e.message}');
+    } catch (e) {
+      _setError('تفاصيل الخطأ: $e');
     } finally {
       if (mounted) {
         setState(() {
@@ -110,6 +144,13 @@ class _HomePageState extends State<HomePage> {
         });
       }
     }
+  }
+
+  void _setError(String message) {
+    if (!mounted) return;
+    setState(() {
+      error = message;
+    });
   }
 
   List<Map<String, dynamic>> get visibleResults {
@@ -144,7 +185,10 @@ class _HomePageState extends State<HomePage> {
             IconButton(
               tooltip: 'تحديث النتائج',
               onPressed: loading ? null : loadResults,
-              icon: const Icon(Icons.refresh, color: goldColor),
+              icon: const Icon(
+                Icons.refresh,
+                color: goldColor,
+              ),
             ),
           ],
         ),
@@ -152,6 +196,7 @@ class _HomePageState extends State<HomePage> {
           color: goldColor,
           onRefresh: loadResults,
           child: ListView(
+            physics: const AlwaysScrollableScrollPhysics(),
             padding: const EdgeInsets.all(16),
             children: [
               Container(
@@ -171,7 +216,11 @@ class _HomePageState extends State<HomePage> {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Icon(Icons.school, color: goldColor, size: 36),
+                    Icon(
+                      Icons.school,
+                      color: goldColor,
+                      size: 36,
+                    ),
                     SizedBox(height: 12),
                     Text(
                       'دليلك الدراسي الذكي',
@@ -208,6 +257,7 @@ class _HomePageState extends State<HomePage> {
                 runSpacing: 8,
                 children: subjects.map((subject) {
                   final selected = selectedSubject == subject;
+
                   return ChoiceChip(
                     label: Text(subject),
                     selected: selected,
@@ -239,17 +289,20 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   if (updatedAt.isNotEmpty)
-                    Text(
-                      updatedAt,
-                      style: const TextStyle(
-                        color: mutedColor,
-                        fontSize: 11,
+                    Flexible(
+                      child: Text(
+                        updatedAt,
+                        textAlign: TextAlign.left,
+                        style: const TextStyle(
+                          color: mutedColor,
+                          fontSize: 10,
+                        ),
                       ),
                     ),
                 ],
               ),
               const SizedBox(height: 12),
-              if (loading)
+              if (loading && results.isEmpty)
                 const Padding(
                   padding: EdgeInsets.all(30),
                   child: Center(
@@ -258,20 +311,34 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 )
-              else if (error != null)
+              else if (error != null && results.isEmpty)
                 _messageCard(
                   error!,
                   icon: Icons.wifi_off,
                   action: true,
                 )
-              else if (visibleResults.isEmpty)
+              else if (visibleResults.isEmpty && !loading)
                 _messageCard(
-                  'ماكو نتائج معروضة لهذه المادة حالياً. '
-                  'جرّب التحديث لاحقاً.',
+                  error ??
+                      'ماكو نتائج لهذه المادة حالياً. '
+                          'جرّب التحديث لاحقاً.',
                   icon: Icons.search,
+                  action: error != null,
                 )
-              else
+              else ...[
+                if (error != null)
+                  _messageCard(
+                    'تعذر تحديث النتائج الجديدة:\n$error',
+                    icon: Icons.warning_amber,
+                    action: true,
+                  ),
+                if (loading)
+                  const LinearProgressIndicator(
+                    color: goldColor,
+                    backgroundColor: cardColor,
+                  ),
                 ...visibleResults.map(_resultCard),
+              ],
               const SizedBox(height: 20),
               const Text(
                 'يتم تحديث التقرير بواسطة الباحث على GitHub. '
@@ -305,7 +372,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Icon(icon, color: goldColor, size: 30),
           const SizedBox(height: 10),
-          Text(
+          SelectableText(
             message,
             textAlign: TextAlign.center,
             style: const TextStyle(
@@ -316,7 +383,7 @@ class _HomePageState extends State<HomePage> {
           if (action) ...[
             const SizedBox(height: 12),
             ElevatedButton(
-              onPressed: loadResults,
+              onPressed: loading ? null : loadResults,
               child: const Text('إعادة المحاولة'),
             ),
           ],
@@ -386,13 +453,16 @@ class _HomePageState extends State<HomePage> {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
                       content: Text(
-                        'رابط المصدر محفوظ بالتقرير. '
-                        'فتح الرابط مباشرة سيضاف بالخطوة القادمة.',
+                        'فتح الروابط يحتاج إضافة مكتبة مخصصة، '
+                        'وسنضيفها بالخطوة التالية.',
                       ),
                     ),
                   );
                 },
-                icon: const Icon(Icons.link, color: goldColor),
+                icon: const Icon(
+                  Icons.link,
+                  color: goldColor,
+                ),
                 label: const Text(
                   'رابط المصدر',
                   style: TextStyle(color: goldColor),
