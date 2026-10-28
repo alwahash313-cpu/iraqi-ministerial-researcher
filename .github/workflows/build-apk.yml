@@ -1,0 +1,55 @@
+
+name: Build Iraqi Ministerial Researcher APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download project
+        uses: actions/checkout@v4
+
+      - name: Install Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Check Flutter files
+        run: |
+          test -f pubspec.yaml
+          test -f lib/main.dart
+
+      - name: Create Android project files
+        run: flutter create --platforms=android --project-name iraqi_ministerial_researcher .
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Check code
+        run: flutter analyze --no-fatal-infos
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: iraqi-ministerial-researcher-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
