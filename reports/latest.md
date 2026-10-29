@@ -1,15 +1,12 @@
 # الباحث الوزاري العراقي
 
-آخر تحديث: 2026-10-28T11:12:03+00:00
+آخر تحديث: 2026-10-29T05:30:24+00:00
 
-عدد النتائج: 54
+عدد النتائج: 53
 
 ## اللغة العربية
 
 - [مراجعة ليلة الامتحان للصف الثالث المتوسط مادة اللغة العربية مهم للوزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WZzVnc09Zbm54MlFQZ0JhaHF3WWl4eFdWdUxpcHJ0NW1JZlVrb1IwTzhaVkFfdW91TENMN2NRblhHUW1oREZuanI2S0xnSGRsdUh2Qm5LbldYUDQwOVRJTVNRcU8?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [الملخص الذهبي 2023 قواعد اللغة العربية لصف الثالث المتوسط لامتحان نصف السنة مهمة جدا ضمان الدرجة الكاملة - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OalpjcThzQmRnRlhiQjJCUmFjM01faloxRG83M3BEWkVWNklSeHZTUEgxbFNZZUpiSTRYcnNnX0l2bFhna0g0c0dlTVJvYlFOWXhJLUg1T1JVYkJSWXc?oc=5)
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
   - نوع البحث: ملخص
 - [شرح أبواب الأفعال الثلاثية ومصادرها حلول تمرينات الكتاب أسئلة وزارية وخارجية اللغة العربية صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQzdQa01xLXFPeTBER1dFbC1TT2QydExXZlBjb2VBRXh0S0NNVzljVlA0ZW54WUZMTHpvN0hmbi1Za0xrdDdPYWlHQUtodi1lUTRvTHNDX25QdTV2ektGRUZGSE8?oc=5)
@@ -60,6 +57,9 @@
 - [المتباينات المركبة رياضيات الصف الثالث المتوسط الفصل الاول - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aOWNlQWZ2ejh2Nk1tZUhlVzVXZl9KT0h5WHJMZWhUdlY1eGFoS3BuZjI0UHlEWUozZlJBUnV5QU4wVVplelJOcWFNUlFhMGNkSkxLU1VmT1NrMlhvOU4xVnk2WEE?oc=5)
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
   - نوع البحث: ملخص
+- [فديو 2 اهم المسائل الحياتية المرشحة للأمتحان الوزاري رياضيات ثالث متوسط - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoXzgzZnoxclZMOENOWWFtdmlRc2c3bGtfdjBiTnNkZy1wNWFaM2JkVFRHeG9CamdTb2NOX0ZiX0pKSlVMaTlyX2wyaFROaTVic3JkV2phX0U1V2My?oc=5)
+  - المصدر: YouTube
+  - نوع البحث: مرشحات
 - [أسئلة الدور الأول متميزين 2025 الرياضيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OT0lvdUFTb1ZGc0RUdy02Q1FzNHh1VVpKMkctXy1pa0Rwb0JOSHdBTHhZUVVOM0RBVXNqVktHUWk4VWJzSjJyNGUtR0k1RVg1NWVDQzJCdy14WUZjaFE?oc=5)
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
   - نوع البحث: اسئلة وزارية
@@ -150,9 +150,6 @@
 - [الاجتماعيات للصف الثالث المتوسط. الجغرافية. المحاضره رقم ١١ . احمد جبار الدايني. - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LeFFzWnI2cTRXbVFxdWp0YWRaN0NwQWl3bHNHal9xZ09iUzNDMGpmN20wRG9JOUJtQ1BEX2E4RDJOMzBjVndHc1FYUVBmN0pJOVFrZC1VQ0gxUEts?oc=5)
   - المصدر: YouTube
   - نوع البحث: ملخص
-- [سؤال وزاري مهم جدا جدا انسب المشاريع الي انهارها اجتماعيات ثالث متوسط - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IWFBvLTFKdlN1WjBhUS1yVzUzdHBIUXVyYzNPbzRKcFJZeGJyTEhkWVU5TlpfUnFocDNpX1pTQi1DRW1HZHRONWVINEx2X2lCb3RDZkhSam16UFBr?oc=5)
-  - المصدر: YouTube
-  - نوع البحث: مرشحات
 - [مراجعة مركزة اجتماعيات ثالث متوسط 2022 المنهج الجديد ضمان 100 درجة - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBWHFXVHBFMVhYWGU3dHBPN05lWmVrb3RkeXpxMENvSHBlWlFKX0Zqa25jUmluWnB0UWRNa2g1NHd0NW0yclJDNFU4andqY0pGRmRmSFc0Zy1DU29UYjV3?oc=5)
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
   - نوع البحث: مرشحات
