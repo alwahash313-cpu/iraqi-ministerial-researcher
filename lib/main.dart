@@ -16,7 +16,7 @@ const Color goldColor = Color(0xFFC8A875);
 const Color mutedColor = Color(0xFFAEB6C1);
 
 const String reportUrl =
-    'https://raw.githubusercontent.com/alwahash313-cpu/iraqi-ministerial-researcher/main/reports/latest.json';
+    'https://cdn.jsdelivr.net/gh/alwahash313-cpu/iraqi-ministerial-researcher@main/reports/latest.json';
 
 class MinisterialApp extends StatelessWidget {
   const MinisterialApp({super.key});
@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
 
       if (response.statusCode != 200) {
         throw Exception(
-          'خادم GitHub رجّع رمز HTTP ${response.statusCode}',
+          'خادم التقرير رجّع رمز HTTP ${response.statusCode}',
         );
       }
 
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
 
       if (parsed['results'] is! List) {
         throw const FormatException(
-          'ملف التقرير لا يحتوي على قائمة results صحيحة',
+          'ملف التقرير لا يحتوي على قائمة نتائج صحيحة',
         );
       }
 
@@ -131,7 +131,7 @@ class _HomePageState extends State<HomePage> {
       _setError('تعذر الاتصال بالشبكة: ${e.message}');
     } on TimeoutException {
       _setError(
-        'انتهت مهلة الاتصال. جرّب شبكة إنترنت أخرى ثم أعد المحاولة.',
+        'انتهت مهلة الاتصال. جرّب شبكة إنترنت أخرى.',
       );
     } on FormatException catch (e) {
       _setError('مشكلة بصيغة التقرير: ${e.message}');
@@ -148,6 +148,7 @@ class _HomePageState extends State<HomePage> {
 
   void _setError(String message) {
     if (!mounted) return;
+
     setState(() {
       error = message;
     });
@@ -155,6 +156,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Map<String, dynamic>> get visibleResults {
     final raw = results['results'];
+
     if (raw is! List) return [];
 
     return raw
@@ -162,6 +164,7 @@ class _HomePageState extends State<HomePage> {
         .map((item) => Map<String, dynamic>.from(item))
         .where((item) {
           if (selectedSubject == 'الكل') return true;
+
           return item['subject']?.toString() == selectedSubject;
         })
         .toList();
@@ -453,8 +456,7 @@ class _HomePageState extends State<HomePage> {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
                       content: Text(
-                        'فتح الروابط يحتاج إضافة مكتبة مخصصة، '
-                        'وسنضيفها بالخطوة التالية.',
+                        'فتح روابط المصادر سيضاف في تحديث لاحق.',
                       ),
                     ),
                   );
