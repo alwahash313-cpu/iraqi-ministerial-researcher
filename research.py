@@ -5,13 +5,14 @@ import re
 import time
 import unicodedata
 from datetime import datetime
+from email.utils import parsedate_to_datetime
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 SUBJECTS = {
     "اللغة العربية": ["العربي", "اللغة العربية", "عربي"],
-    "اللغة الإنجليزية": ["الإنكليزي", "الانكليزي", "اللغة الإنجليزية", "اللغة الانجليزية", "انكليزي"],
+    "اللغة الإنجليزية": ["الإنكليزي", "الانكليزي", "اللغة الإنجليزية", "اللغة الانجليزية", "انكليزي", "انجليزي"],
     "الرياضيات": ["الرياضيات", "رياضيات"],
     "الكيمياء": ["الكيمياء", "كيمياء"],
     "الفيزياء": ["الفيزياء", "فيزياء"],
@@ -24,29 +25,65 @@ CURRENT_YEAR = datetime.now().year
 OUTPUT_DIR = "reports"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+CONTENT_TYPES = [
+    "مرشحات",
+    "أسئلة وزارية سابقة",
+    "ملخصات ومراجعات",
+    "شروحات وحلول",
+]
+
 SEARCH_TYPES = {
-    "مرشحات حديثة": [
-        f"مرشحات {CURRENT_YEAR}",
-        "مرشحات وزاري",
-        "توقعات الامتحان الوزاري",
+    "مرشحات": [
+        f"مرشحات الثالث متوسط {CURRENT_YEAR}",
+        "مرشحات وزاري الثالث متوسط",
+        "توقعات امتحان الثالث متوسط",
     ],
     "أسئلة وزارية سابقة": [
-        "اسئلة وزارية الدور الأول",
-        "اسئلة وزارية الدور الثاني",
-        "اسئلة وزارية الدور الثالث",
-        "اسئلة وزارية التمهيدي",
-        "حلول الاسئلة الوزارية",
+        "اسئلة وزارية الثالث متوسط",
+        "اسئلة وزارية الدور الأول الثالث متوسط",
+        "اسئلة وزارية الدور الثاني الثالث متوسط",
+        "اسئلة وزارية الدور الثالث الثالث متوسط",
+        "اسئلة وزارية التمهيدي الثالث متوسط",
+        "حلول الاسئلة الوزارية الثالث متوسط",
     ],
     "ملخصات ومراجعات": [
-        "ملخص",
-        "مراجعة مركزة",
-        "مراجعة ليلة الامتحان",
+        "ملخص الثالث متوسط",
+        "مراجعة مركزة الثالث متوسط",
+        "مراجعة ليلة الامتحان الثالث متوسط",
     ],
     "شروحات وحلول": [
-        "شرح وحل تمارين",
-        "حلول واجوبة",
+        "شرح الثالث متوسط وحل التمارين",
+        "حل تمارين كتاب الثالث متوسط",
+        "شرح وحلول الثالث متوسط",
     ],
 }
+
+SCHOOL_TERMS = [
+    "الثالث متوسط",
+    "الثالث المتوسط",
+    "ثالث متوسط",
+    "ثالث المتوسط",
+]
+
+EXCLUDED_TERMS = [
+    "جدول امتحانات",
+    "جدول الامتحان",
+    "جدول الدوام",
+    "نتائج الثالث",
+    "نتائج اعتراضات",
+    "نتائج الامتحانات",
+    "عداد الوقت",
+    "الوقت المتبقي",
+    "موعد الامتحان",
+    "مواعيد الامتحانات",
+    "تقليص المواد",
+    "الحذوفات",
+    "تعطيل الدوام",
+    "عطلة رسمية",
+    "اخبار وزارة",
+    "تعيينات",
+    "رواتب",
+]
 
 
 def normalize(text):
@@ -57,15 +94,19 @@ def normalize(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def contains_any(text, words):
+    value = normalize(text)
+    return any(normalize(word) in value for word in words)
+
+
 def detect_subject(title, fallback):
     text = normalize(title)
 
-    # نبحث عن المادة الحقيقية في عنوان النتيجة أولاً
     checks = [
-        ("اللغة الإنجليزية", ["انكليزي", "انجليزي", "اللغة الانجليزية", "اللغة الانكليزية"]),
+        ("اللغة الإنجليزية", ["انكليزي", "انجليزي", "اللغه الانجليزيه", "اللغه الانكليزيه"]),
         ("الاجتماعيات", ["اجتماعيات", "جغرافيه", "تاريخ", "وطنيه"]),
         ("التربية الإسلامية", ["اسلاميه", "التربيه الاسلاميه"]),
-        ("اللغة العربية", ["عربي", "اللغه العربيه"]),
+        ("اللغة العربية", ["عربي", "اللغه العربيه", "قواعد العربي"]),
         ("الرياضيات", ["رياضيات"]),
         ("الكيمياء", ["كيمياء"]),
         ("الفيزياء", ["فيزياء"]),
@@ -73,45 +114,90 @@ def detect_subject(title, fallback):
     ]
 
     for subject, words in checks:
-        if any(normalize(word) in text for word in words):
+        if contains_any(text, words):
             return subject
 
     return fallback
 
 
-def detect_type(title, keyword):
+def is_relevant(title):
     text = normalize(title)
 
-    if any(word in text for word in ["مرشحات", "مرشحه", "توقعات", "متوقعات"]):
+    if not contains_any(text, SCHOOL_TERMS):
+        return False
+
+    if contains_any(text, EXCLUDED_TERMS):
+        return False
+
+    return True
+
+
+def detect_type(title):
+    text = normalize(title)
+
+    # المرشحات يجب أن تكون مذكورة بوضوح في العنوان
+    if contains_any(text, [
+        "مرشحات",
+        "مرشحه",
+        "توقعات وزاريه",
+        "توقعات الامتحان",
+        "الاسئله المتوقعه",
+        "اسئله متوقعه",
+    ]):
         return "مرشحات"
 
-    if any(word in text for word in [
-        "اسئله وزاريه", "اسئلة وزارية", "الدور الاول",
-        "الدور الثاني", "الدور الثالث", "التمهيدي",
-        "التمهيدي", "امتحان وزاري"
+    # الأسئلة الوزارية السابقة
+    if contains_any(text, [
+        "اسئله وزاريه",
+        "اسئلة وزارية",
+        "اسئله وزاري",
+        "الاسئله الوزاريه",
+        "حل الاسئله الوزاريه",
+        "حلول الاسئله الوزاريه",
+        "امتحان وزاري",
+        "الدور الاول",
+        "الدور الثاني",
+        "الدور الثالث",
+        "التمهيدي",
     ]):
         return "أسئلة وزارية سابقة"
 
-    if any(word in text for word in ["حلول", "اجوبه", "اجوبة", "حل اسئله"]):
-        return "حلول وأجوبة"
-
-    if any(word in text for word in ["شرح", "محاضره", "محاضرة", "تمارين"]):
+    # الشروحات والدروس
+    if contains_any(text, [
+        "شرح",
+        "محاضره",
+        "محاضرات",
+        "حل تمارين",
+        "حلول التمارين",
+        "حل اسئله",
+        "حل الاسئله",
+    ]):
         return "شروحات وحلول"
 
-    if any(word in text for word in ["ملخص", "مراجعه", "مراجعة", "مركزه"]):
+    # الملخصات والمراجعات
+    if contains_any(text, [
+        "ملخص",
+        "مراجعه",
+        "مراجعة",
+        "مركزه",
+        "مركزة",
+        "ليله الامتحان",
+        "ليلة الامتحان",
+    ]):
         return "ملخصات ومراجعات"
 
-    if "مرشحات" in keyword:
-        return "مرشحات"
-
-    if "اسئلة" in keyword:
-        return "أسئلة وزارية سابقة"
-
-    return "ملخصات ومراجعات"
+    return ""
 
 
 def detect_year(text):
-    match = re.search(r"(20[1-3][0-9])", str(text or ""))
+    value = str(text or "")
+
+    # معالجة السنة الدراسية مثل 2025/2026
+    match = re.search(r"(20\d{2})\s*[/\-]\s*(20\d{2})", value)
+    if match:
+        return match.group(2)
+
+    match = re.search(r"(20\d{2})", value)
     return match.group(1) if match else ""
 
 
@@ -130,21 +216,22 @@ def detect_round(text):
     return ""
 
 
-def is_relevant(title):
-    text = normalize(title)
-
-    school_terms = [
-        "الثالث متوسط",
-        "الثالث المتوسط",
-        "ثالث متوسط",
-        "ثالث المتوسط",
-    ]
-
-    return any(normalize(term) in text for term in school_terms)
+def get_published_year(pub_date):
+    try:
+        date = parsedate_to_datetime(pub_date)
+        return str(date.year)
+    except Exception:
+        return ""
 
 
-def search_news(subject, keyword, content_type):
-    query = f'"الثالث متوسط" العراق "{subject}" "{keyword}"'
+def search_news(subject, keyword, search_group):
+    aliases = SUBJECTS[subject]
+    subject_query = " OR ".join(f'"{name}"' for name in aliases[:3])
+
+    query = (
+        f'"الثالث متوسط" العراق '
+        f'({subject_query}) "{keyword}"'
+    )
 
     url = (
         "https://news.google.com/rss/search?q="
@@ -184,12 +271,19 @@ def search_news(subject, keyword, content_type):
 
             actual_subject = detect_subject(title, subject)
 
-            # لا نضع النتيجة في مادة أخرى إذا كان عنوانها يحدد مادة مختلفة
             if actual_subject != subject:
                 continue
 
-            detected_type = detect_type(title, keyword)
-            year = detect_year(title) or detect_year(pub_date)
+            detected_type = detect_type(title)
+
+            # لا نعتمد على كلمة البحث وحدها لتصنيف النتيجة
+            if not detected_type:
+                continue
+
+            title_year = detect_year(title)
+            published_year = get_published_year(pub_date)
+
+            year = title_year or published_year
 
             items.append({
                 "subject": actual_subject,
@@ -199,7 +293,7 @@ def search_news(subject, keyword, content_type):
                 "published_at": pub_date,
                 "keyword": keyword,
                 "content_type": detected_type,
-                "search_group": content_type,
+                "search_group": search_group,
                 "year": year,
                 "exam_round": detect_round(title),
                 "is_current_year": year == str(CURRENT_YEAR),
@@ -219,11 +313,11 @@ def main():
     for subject in SUBJECTS:
         print(f"\nالبحث في مادة: {subject}")
 
-        for content_type, keywords in SEARCH_TYPES.items():
+        for search_group, keywords in SEARCH_TYPES.items():
             for keyword in keywords:
-                print(f"  - {content_type}: {keyword}")
+                print(f"  - {search_group}: {keyword}")
 
-                found = search_news(subject, keyword, content_type)
+                found = search_news(subject, keyword, search_group)
 
                 for result in found:
                     if result["url"] not in seen_urls:
@@ -232,14 +326,15 @@ def main():
 
                 time.sleep(1)
 
-    # ترتيب النتائج: المرشحات الحديثة أولاً، ثم بقية المحتوى
+    # الأحدث أولاً داخل كل تصنيف، مع الاحتفاظ بكل السنوات
     results.sort(
         key=lambda item: (
             item["content_type"] != "مرشحات",
-            item["year"] != str(CURRENT_YEAR),
+            not item["is_current_year"],
+            item["year"],
             item["published_at"],
         ),
-        reverse=False,
+        reverse=True,
     )
 
     now = datetime.now().astimezone().isoformat(timespec="seconds")
@@ -248,12 +343,7 @@ def main():
         "updated_at": now,
         "results": results,
         "subjects": list(SUBJECTS.keys()),
-        "content_types": [
-            "مرشحات",
-            "أسئلة وزارية سابقة",
-            "ملخصات ومراجعات",
-            "شروحات وحلول",
-        ],
+        "content_types": CONTENT_TYPES,
         "total": len(results),
     }
 
