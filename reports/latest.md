@@ -1,186 +1,186 @@
 # الباحث الوزاري العراقي
 
-آخر تحديث: 2026-10-31T05:26:32+00:00
+آخر تحديث: 2026-10-31T08:16:43+00:00
 
-عدد النتائج: 52
+عدد النتائج: 27
 
 ## اللغة العربية
 
-- [مراجعة ليلة الامتحان للصف الثالث المتوسط مادة اللغة العربية مهم للوزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WZzVnc09Zbm54MlFQZ0JhaHF3WWl4eFdWdUxpcHJ0NW1JZlVrb1IwTzhaVkFfdW91TENMN2NRblhHUW1oREZuanI2S0xnSGRsdUh2Qm5LbldYUDQwOVRJTVNRcU8?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [شرح أبواب الأفعال الثلاثية ومصادرها حلول تمرينات الكتاب أسئلة وزارية وخارجية اللغة العربية صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQzdQa01xLXFPeTBER1dFbC1TT2QydExXZlBjb2VBRXh0S0NNVzljVlA0ZW54WUZMTHpvN0hmbi1Za0xrdDdPYWlHQUtodi1lUTRvTHNDX25QdTV2ektGRUZGSE8?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
 - [مرشحات مادة العربي الثالث متوسط 2024 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aLTU5bjY3LXE1RTljN3IyOC1iS1NVUndoTGk0eURpZzd3UDlabU5CWUhRR2MzZzcyZGZpRWF3QTYwVDYtSjhfWm5zV2Ita1BsUnZzVklvQ3V6NmZM?oc=5)
+  - التصنيف: مرشحات
+  - السنة: 2024
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [جميع أسئلة التمهيدي الثالث المتوسط 2025 مع الحل | خارجي – وزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMihAFBVV95cUxPcElwRjBOcGFHUjMyRWlxb3Jpc2tHWDV4ZWg3MkFFTWJ6bjhhU0tJN0hiTjVGRmFNQ2VZWDNzQ09BcnBnb0JpQ3UzNnJjQi1VVzJhR3BZeW10NzYxdUU4STJpZlVvb2FQczREWGFjdUx4T0lZTVNsTzhtZW5WbEVOT18zZkU?oc=5)
+
+- [تقليص المواد الدراسية للثالث المتوسط 2026 في العراق | الحذوفات الرسمية من وزارة التربية - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4QXZ1RlpKOEItTWIwazg2OFdYX19LSUh0elBLRmRXbFFlVjV0YmcwRUFnRFMwSTUtVVgzc2JPU3BCZ1hwUU9FOFV3ZU4zMUJKUERib2hXeHplQ3FoWTRvcjI4VEI?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [أسئلة الدور الثاني 2025 العربي والإسلامية الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE02M2Zmek9zaUE1Ri1veFhSYlJhWWt2WE0tOHN6cnhlZmlpUG96UjNITlktcWxYYjVKSzlvQVJyVFBZUzYtZ1czRGI4RnhQNDdOWF9OSmtwb1cxckhwTUE?oc=5)
+
+- [الوقت المتبقي للامتحان النهائي صف ثالث متوسط 2026 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZZzRRV2dKQnZwRy15UklweWV1LWw2cUM3dk5BemtYekVpREc3V3dpVUNRcUhBMTF0NWU3YmR1cHpVYnNXYWtuTGo5MGE3Y1lUSjFWRGtoS3cwUQ?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة واجوبة عربي واسلامية الدور الأول 2025 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTFBRd3NMWlVJNnJ2c2d0d2V3OHR5Y1VlbUo4WWpUYWdEMFhJdWk5XzRFSHRuOXVuZElvdE5sV2xzbThNWDFOUGJzTHFpclMzN3l5b2VDcGRUVmFGR0QzQXd5RVRPOUJxY0xDTUE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة اللغة العربية الثالث المتوسط التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE43em1Pb01JX3hOUFJ4VG9FNEdueXJKenBIRGE5VklWaGdUVjRuSm9rbnJnTnY4TmN2QzcyclMtSmd6MmhBSWhqdHJtS1FrOFZOb3RpemVSU1M1MG9pWkE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
+
 - [جدول امتحانات الثالث المتوسط 2026 الدور الأول الجديد - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMigAFBVV95cUxNb0QtV04yVzJlTkxTQW9mTm5QU1FlUnRxSjRJSTZnX1U0X0cySENRamxORGY5dnNiRUlUdlJoWjhDVy1DeUlTSUY5T1ppS3VWVTBaZmhlQ0dLeXVZWkVPM2g2WkZ6YTZfUkcwc3FsVXV1TzA3YlZOWDd2LXZBLW9ZUA?oc=5)
+  - التصنيف: أسئلة وزارية سابقة
+  - السنة: 2026
+  - الدور: الدور الأول
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [عداد الوقت المتبقي لامتحانات التمهيدي 2026 الصف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zbzBwNDZXMHFjd2hZcDJmdHlTNjNHUXVxV2ZNcHQ4MF9uR2FIVF8wY1pJcnllSThsLU9sekZtYkJjcWhIbjQ0Qi1ZanEtVTdLZXFldHdPdTQ4eXVhNnc?oc=5)
+
+- [رابط استخراج نتائج اعتراضات الثالث متوسط 2026 في العراق عبر المنصة الرسمية لوزارة التربية - نجوم مصرية](https://news.google.com/rss/articles/CBMizwJBVV95cUxOUVd3aXBCTDgyVWFERFZnSkNsenIwWTF4MEZnbTNpMHpJV3Z5S1BtcW44T0hHM1FXZ3VLY1pxc0owSjdELUlaUERJd281ZWFkTUQtTDJZeXpNZC10cGVISTBUUlZfVHRONWVER3JPRmFzRThOWHJkTDJNdl9MRzdsMHY2NS0wSmtwSldSOXRnRFlGTEtoWXljOWtnRW11YWdrRTJQeTBIQmtKUjlrQkJNVVhQZ05mazdFVmgyTTZ1WlZGemhsVGRET3ZLY3FtMGM1M3B1eWdnSXBNMjNGbVFGSExQM2Vnd3BsVEY0VEM1U185MFlyNk43NTh4ZDFCYnpVaWZMV3dLYWw0bnhNeEhmb1VPTGdoMDJDcUN0QlhUZnVTMVNVd091eURkN29RdXVwTm5wRExkTzRIcUt5TGtsOEtpSm03RjVERDBDMzRIUQ?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
+  - المصدر: نجوم مصرية
+
+- [افضل مراجعة مركزة للثالث متوسط | الاستاذ احمد الجاف - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE56eTQwWTJhTnJkUzA0YW1KZ3JyTDVPOU44NjVQcjZYLUxpVEpmNkRXRXpkU1BxUHd5bHpwcjl4WkFGZEdjdVJheEJrc0NvNEpVNkFjZDVYUW1ST0gx?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
+- [مراجعة ليلة الامتحان للصف الثالث المتوسط مادة اللغة العربية مهم للوزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WZzVnc09Zbm54MlFQZ0JhaHF3WWl4eFdWdUxpcHJ0NW1JZlVrb1IwTzhaVkFfdW91TENMN2NRblhHUW1oREZuanI2S0xnSGRsdUh2Qm5LbldYUDQwOVRJTVNRcU8?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2024
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
+
+- [شرح أبواب الأفعال الثلاثية ومصادرها حلول تمرينات الكتاب أسئلة وزارية وخارجية اللغة العربية صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQzdQa01xLXFPeTBER1dFbC1TT2QydExXZlBjb2VBRXh0S0NNVzljVlA0ZW54WUZMTHpvN0hmbi1Za0xrdDdPYWlHQUtodi1lUTRvTHNDX25QdTV2ektGRUZGSE8?oc=5)
+  - التصنيف: أسئلة وزارية سابقة
+  - السنة: 2024
+  - الدور: الدور غير محدد
+  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
+
+- [المراجعة المركزة ج2 قواعد الثالث المتوسط بعد التقليص2025/2026 أ.احمد محمد الجبوري - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5T1lQUUhuS2JJNGRnclJqakhBcThLMzg4dkVoZ1cwd0wyaW9ldkhlZDlwUm5Nb29jYlowNVI5b3NRVzMxaVFPWnBvZ3EzZFpPaEVkdnkySU1ER3NS?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2025
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
 
 ## اللغة الإنجليزية
 
-- [اجتماعيات ثالث متوسط الفصل ١ /الخصائص الطبيعية لجغرافية العراق شرح وملخص ص٧،٦,٥ مع الأسئلة الوزارية - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUTlOaktTRkVEZGpmaG9VRWE1Q0lQdFNsVjF4UVZ2MDRPWm5Sd1FMandodjM4Y0tPaTlWc0lQaTRYUGplYldtbUZ2VzNNVmVuQjF1RmRKcXRBcjB2?oc=5)
-  - المصدر: YouTube
-  - نوع البحث: ملخص
-- [وزير التربية يشرف على تسليم طلبة الثالث المتوسط أسئلة مادة الرياضيات (صورة) - وكالة بغداد اليوم الاخبارية](https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wcXBQTTZTQ2d2VFV3alJkY2d1ZEJMaGMybnAyckdNTGpqYlpQQ3dPb0djWk9MeHNQeDB5MV9RblJpREVVcWZlNElVb3BQZEE?oc=5)
-  - المصدر: وكالة بغداد اليوم الاخبارية
-  - نوع البحث: اسئلة وزارية
+لم تُعثر على نتائج لهذه المادة.
 
 ## الرياضيات
 
 - [اوراق ملخص الفصل الخامس الدائرة رياضيات الصف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vdmFvNHRXUEpJZXA5bEJpUmh0X0tEbE5iamVhYXluTUd5RkpFSEo1bHp6TzBnWXZRZ1FYNTZ6LVVrTXIwaFo1UUpNc1ZmMGxVRnByTVFFalFVMnZFUWt5NTYyOG4?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2025
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [فديو 2 اهم المسائل الحياتية المرشحة للأمتحان الوزاري رياضيات ثالث متوسط - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoXzgzZnoxclZMOENOWWFtdmlRc2c3bGtfdjBiTnNkZy1wNWFaM2JkVFRHeG9CamdTb2NOX0ZiX0pKSlVMaTlyX2wyaFROaTVic3JkV2phX0U1V2My?oc=5)
-  - المصدر: YouTube
-  - نوع البحث: مرشحات
-- [أسئلة الدور الأول متميزين 2025 الرياضيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OT0lvdUFTb1ZGc0RUdy02Q1FzNHh1VVpKMkctXy1pa0Rwb0JOSHdBTHhZUVVOM0RBVXNqVktHUWk4VWJzSjJyNGUtR0k1RVg1NWVDQzJCdy14WUZjaFE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الدور الثالث 2025 الرياضيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PeTJtZnViS0RQd3Izc05RRWFRUGpDbGRab1U3dXFSOW9qb05PeXhOckp2QlV3UlFNUy00cXk2UkVhbUJZTEFaUUlxSF9FT2dmcnRlWmozN0NGRzFvVGc?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الدور الأول 2025 الرياضيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTE1KamJvTHd5WXQ2OUJ2SUtNUXZlNzUxcXJrdEVOcjdVUTZJeXllUTFQZEhwQ19CcXdNNExTT240T0NFQ0tSTllzazIySUR0Yy1WTGtTN1BqeG4xWFJLWUtxSWtCRU51RktFdHc?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الرياضيات الثالث المتوسط التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zeUdoRnNtT3ZPTWFVbjBjLVRzaVpiR1QyaXFUSk9tMm5TQ2QzcEtnemktcHdSYk8waTV2Ym8tRnVSX2hvQkQ1NWY3Wm5HWmJkM3JIYnR1N0JRdUYtdjJv?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [اسئلة الرياضيات الدور الاول 2023 صف الثالث المتوسط متميزين - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kZnFMVmpNU25XVXA3Q3pTdWpJZlF3dHJtR3Rfdm1Vd1UyMnhINHBFZVVzV2Z5cVo4T3hpa3MxRzFtUzduQ1ROWGJHdnVFV3dQdmE4OUVsSnFTRjhG?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
 
 ## الكيمياء
 
+- [عداد الوقت المتبقي لامتحانات الوزاري 2026 الصف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMirAFBVV95cUxNNmhIZ3ZCYTZ0NEFWWVVkdXNtRUlSeERFUzgyY0g2N2JDVGxxbmlVcGlMTFpWZng0dTRWRGYxN05ReXVTbmMzX2xNUC1YT3JuWHZ5a1FERjR5UXhrR01Md096WkdMSWdJYUJfWTRJSTVtaXhqZGRzbl9YWWpVZ2x6QnphYm5lbDFFcVlzZ09wNUU2TEQxcHlzdnpkNlNLNlBraWNTZTNwbmJVdUhl?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
+  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
+
 - [ملخص ووزاريات الفصل الاول كيمياء الثالث المتوسط الجزء الاول - YouTube](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KeFc2UEdJYWN1bW5hSktqeld6enBNeUh0eGd0QTBtZW52aFNvQzFaNjhTbW9jcDNYb3hScHZHWmFCdXdZVF84SUdtUDU5WUU?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
   - المصدر: YouTube
-  - نوع البحث: ملخص
-- [مهمات الفصل الاول كيمياء الثالث متوسط 2022 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KQmFJR3ZyeUFvd09oNFJxYUtiZnhlYUhhZU5CUFJEUnJBQzN5Sl9RaXlSa2ZnWFZmN1J1c2d0WE9ySVJoOVdzbEhZSXN4MEZybjBfNFg5WkhVZXZrT0E?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
+
+- [كيمياء الثالث متوسط / المراجعة المركزه / مراجعة ليلة الامتحان ضمان ال100 في ساعه واحدة فقط - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JRmkxUjFBOVM0bEc0VmtYSGd3QlBKaHZJcUpDeTM1Wm8yUkRQcFNNcDcySVhsbU5pOU0zb2NkRnozbGxMTnh1MTN2a1UyeGFmeVZxLW93N0VCM21o?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
 - [مراجعة ليلة الامتحان كيمياء ثالث متوسط التعاريف والاستعمالات والخواص الفيزيائية والاختيارات والفراغات والتعاليل والمقارنات والكشوفات والتحاضير والمعادلات الكيميائية - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE00NWFQdG12NmRRblNMd1RzekUwYzBsYmJmbEtmZjV0Y3M0Z2VzaFg3MnNUcFpxYzhmR1NYMWk2aFNVVWZPVXV0VWhOc1JWbFZjQkItczYydDdkUm0xQ2JTcnpJeFg?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2024
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [أسئلة واجوبة الكيمياء الدور الأول 2025 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTFBFM0d5TGw1RlRTWHZ3NUZDOFJIa3QyY0VZZDgtU1BRNVNQLUhFNTkydk9HbDRnMXR1UnR0YkhndkYyZjktbzlva0FSY0F3bGxsY05RMy1fUTNZR2x0VVVpUHF5b09zZG93YVE?oc=5)
+
+- [مراجعة كيمياء ثالث متوسط لعام ٢٠٢٤ ضمان ١٠٠ درجة بالامتحان الوزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pRW1YdTgwcDh3dWZ5c01ZVHBYWE9PYUhWNUtoMHpjNERGbXloT0RBNllpLWo4N3dzLUpMRDNxaGl3ZFpmbExqb1JuUEpmUTlYWWVxQVp4Zkpla0RudmF5cTJJeXc?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2024
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة امتحان الكيمياء الدور الثالث 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DdkVDZ0JWRHdnSnNWbDJFWTd1S3hTTHFXS2JZM1V2VlUyLU5rR2ZRbmtLbGlnOWM1YzRHc2dMNDQtTElBamNBaWFOODdsU3RhdkdaQ2lXNlVmWnVLakE?oc=5)
+
+- [مهمات الفصل الاول كيمياء الثالث متوسط 2022 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KQmFJR3ZyeUFvd09oNFJxYUtiZnhlYUhhZU5CUFJEUnJBQzN5Sl9RaXlSa2ZnWFZmN1J1c2d0WE9ySVJoOVdzbEhZSXN4MEZybjBfNFg5WkhVZXZrT0E?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2022
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الكيمياء الثالث المتوسط التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTRG5jeVBkVkFUdWVyOFBCX015SURPSHpSVGhZR1EyQUtUelpHVnBMY3h2YUliODJpcWZ1WV9pczFBc0N2Rl9zRi1ON3B1SmtkS1VzbG1INkIxUEdw?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الكيمياء الدور الثاني 2023 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTE9xMjZjRUFUNjZZcFN6Q1Njd1ViZ0wwelB1WGEyX2JidUQ3S1drOXdFN2FJbTJkMnUwWTFrRWxSUE9zRVRDUlFwYVN1a2JDc3lMb1V3Vm9DV3FIN2tsZ2I5ZG1hN0wwRExYRHc?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الكيمياء الوزارية للفصلين الأول والثاني للصف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VUXRVNnFGTTl1d1dNTGk5LWhsMU1IR0ZUYzdkSGxsRWVwOXNldGtPMlNDSUg0bGhIc2ViNExYX2RvT3ZSVlR3b1pydEZmOFVzMGtnYXVRUXBrR25ZeGxwdThBMDE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة واجوبة كيمياء الدور التمهيدي 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZZXR6WG52V2QzVWVhYW92X1VaWGtuRGV3S0djckZlSGZiY0t0NUJ5eTFqUXdURjFrSnkwX2ZWOEhMOTQ4eTJoYmpjWFItTW1XcUhEcEYtVkY3ME9TaDhB?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
 
 ## الفيزياء
 
-- [اوراق ملخص الفصل الثالث التيار الكهربائي فيزياء ثالث متوسط 2021 الاستاذ ستار شاكر - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE53MkFZaWloU2JXWVBfNDZnMjZXNDdzTEpTREljZF9obl95WEpmYjB1QVRieHI2S0RLa0h2ZXBOckthVlhpNmw2U2Z6VncyNV9zR1lNSzZFZEh2Ujl4VGc?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
 - [مهمات ومرشحات الفيزياء الثالث متوسط | لسنة 2023 فقط ١٥ وراق - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE04d3B5cDZwTEt4ZVJJSzVnbEdsYWV4d1U2Sm1rNDJqZmRla29BSHg0bFgzYmVONXhPVDBZRlJpdkJRY0dLOTRwaG9iUnZubHZnTkdJT2VhVEhqd3ppM1E?oc=5)
+  - التصنيف: مرشحات
+  - السنة: 2023
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [أسئلة الدور الأول 2025 الفيزياء الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTFBydFBHdjlBWVhuRU96WVpMMWoyRldMcW1iejZVSkRXS0dpN2pyMHUyTDJsZXVHS2dfcnlVQk5aQkE1QUxPWTVrQmEwbWktR0c0cDlJdVJvb2NSS0syeXBNMFl5dHpnelQ5akE?oc=5)
+
+- [اوراق ملخص الفصل الثالث التيار الكهربائي فيزياء ثالث متوسط 2021 الاستاذ ستار شاكر - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE53MkFZaWloU2JXWVBfNDZnMjZXNDdzTEpTREljZF9obl95WEpmYjB1QVRieHI2S0RLa0h2ZXBOckthVlhpNmw2U2Z6VncyNV9zR1lNSzZFZEh2Ujl4VGc?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2021
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الدور الثاني 2025 الفيزياء الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DbkdqZzNMcmo2Z2lVYXV6ZFVaSVplYldqSWk3Ynp6Z3QyNE54emx4X3Y0YkdESWVTeUJUVlFkdS1LUGlybEV5RmlYRVctSHRVN0k0dFRQRENab3lWY0E?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الفيزياء الثالث المتوسط التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJdG9VR2tsRDBGQWJXbzdNelpZaDluU3lmQ1JYQzBHemhCVFVvZGZrVVJZbzJCVUdrXzBHMVZEQWpLSjEyR3l3YWtEbGhnM3d3dVlxQlk2R3NHdzR6MUE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الفيزياء التمهيدي 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VdkJ6T1VKYm4xQXYtXzY2blJXd3djWGZWUUpWWnhlYlNrZXlKZnpkWG1qVmpzODRrdUZoOUxxWGdJOUIxZS1oOFYwaFZOWWpUTHBiUGhhYXNuNDJOMnRn?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الفيزياء الدور الثاني 2023 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiaEFVX3lxTE03OEIxTVBtWUNpZVNnTXdXNVJpRkFTakNFaDVQNF8zb1AzeFJhYWM4LV9UcTRwLUZHU1RrRlRYc3hubkRzZ3lXM1FIZk5acDNVTjQxWlpXcDBpdjRzQnVLbDdneVBGdEg0?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [الوقت المتبقي للامتحان النهائي صف ثالث متوسط 2026 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZZzRRV2dKQnZwRy15UklweWV1LWw2cUM3dk5BemtYekVpREc3V3dpVUNRcUhBMTF0NWU3YmR1cHpVYnNXYWtuTGo5MGE3Y1lUSjFWRGtoS3cwUQ?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
 
 ## الأحياء
 
 - [الحذوفات والتغييرات الجديدة والاضافات في منهج الاحياء ثالث متوسط 2026 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sNjJmamRQYXJ5UTVzZHRXSmFxZ01jVE9LRWhVbVFic05QOFhzRHp0MklMM0tNVWxsT1RHaTBmeV9WUUtMdFFYNmQ2bnZoVEFfeHdtYnRFbmdjNmtl?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [أسئلة الدور الثالث 2025 الأحياء الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PRU1nWWhIdU1LTmhRWnRDRjdGaXlEQU5MNGc1TDJGUUptck11eUpIdTZUTWJTcnJ1QWpYdFAxdWpJaEltcy16c2FFbWpHNU8ySXhlRXFRUEFkc1ZMM3c?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [حلول الوزاري من 2018 الى 2024 مادة الاحياء الثالث المتوسط ضمان ال 100 في الوزاري - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5INFptNG84bWpVbDk4R0NhbVJRVXd2cGQxZVlnbXd4YWhYVkxnMEtQcWVQNExRbWo0WEtXWWJ3dG1wUFZMTXZyZlgzMmg3UWRxekpFbC1sN2UwLW9MTUF4TGFvSFQyUQ?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
 
 ## الاجتماعيات
 
-- [الاجتماعيات للصف الثالث المتوسط. الجغرافية. المحاضره رقم ١١ . احمد جبار الدايني. - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LeFFzWnI2cTRXbVFxdWp0YWRaN0NwQWl3bHNHal9xZ09iUzNDMGpmN20wRG9JOUJtQ1BEX2E4RDJOMzBjVndHc1FYUVBmN0pJOVFrZC1VQ0gxUEts?oc=5)
+- [مراجعة مركزة ثالث متوسط جغرافيه ح 1 - الاستاذة سجى الربيعي - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCMi13SmNUNVcyVkdwQlA5NkNGelB2T29BRkZreFB4aWRVcE5JVUktNlVPdElFNDNBUXQ4Y1FIUnlSaXBPNkY5bExqYVVpUGV4MldzcTNNZDJyaG9u?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2026
+  - الدور: الدور غير محدد
   - المصدر: YouTube
-  - نوع البحث: ملخص
+
+- [الاجتماعيات للصف الثالث المتوسط. الجغرافية. المحاضره رقم ١١ . احمد جبار الدايني. - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LeFFzWnI2cTRXbVFxdWp0YWRaN0NwQWl3bHNHal9xZ09iUzNDMGpmN20wRG9JOUJtQ1BEX2E4RDJOMzBjVndHc1FYUVBmN0pJOVFrZC1VQ0gxUEts?oc=5)
+  - التصنيف: شروحات وحلول
+  - السنة: 2026
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
+- [المراجعة المركزة الذهبية لمادة الاجتماعيات الصف الثالث المتوسط - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qZVFzYXIzY3ZoeW1sdVJWQlNuSzNiekV2T3pKNWdBY2FvN3RfMTZVWGtTT3l5Z1NtczI0MlRnb0pNUXc4NDMwZlNBU3UwaTNPbFNvZ0gxRzJjV3Vs?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2024
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
+- [المراجعة المركزة: جميع فراغات الاجتماعيات || اجتماعيات الثالث المتوسط مع أ.علي الحطاب - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJZzZ2RzlSRDVFdHVRX1hSbjdUUkI3ekJsZFJ4bEVjdzNMYXNwdWRtXzBaUnhQelVjQlhlWTFWX3k0d2pYWHVFWnFodkptQTF5OVFRdFd1X3ZUcTJu?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2025
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
+- [مراجعة مركزة لجميع التعاريف المهمة || اجتماعيات الثالث متوسط مع أ. علي الحطاب - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wY2JPN0QyeVY3T20wQ1RQWENwU2VoVkNLZ0ZseW9rVUFKalBqY2JzcWxpVkFqdGxSLXRwUldsUlkxQlh2NkZhVEV5N25Pc3psREViWW90a0JRMUdz?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2025
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
+
 - [مراجعة مركزة اجتماعيات ثالث متوسط 2022 المنهج الجديد ضمان 100 درجة - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBWHFXVHBFMVhYWGU3dHBPN05lWmVrb3RkeXpxMENvSHBlWlFKX0Zqa25jUmluWnB0UWRNa2g1NHd0NW0yclJDNFU4andqY0pGRmRmSFc0Zy1DU29UYjV3?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2022
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [أسئلة الدور الأول 2025 الاجتماعيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nTFJ6UWV4YklSaTE0dDdScERjMGI1Q2hOMlpwSU4xWmFPVnNrU1FOUDM4bXpUVEtNMFp5ZTdEVHlwTGtVaVhzaWxsbUNfY2FtdmtYLVBJSnRfd1dmN1k0eGtTX1ZsRjl4dUE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الدور الثالث 2025 الاجتماعيات الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE0ySnZGeHkxMjU0MVB3RmlIQng5NnZkb1ZYOXlqWGdEWndWMmk4Sm42SFNBdjUwRDV5V2dCZTByYXpwOXhJaGVnck0zVFpUTVVkR2NtY3d4UmlpN21XclE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة امتحان الاجتماعيات الدور الثالث 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hdk1QQlpGRGxuaGk0WHVUYnN5YjZkWVdCNERaaUU1VjVDM3J4Yno0ZDBjNzg4VHhHck9CajZTdVo5T1pfcnE1b2FSSXFnejJ3TnRXZHhHNGYtWGMtRUE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة واجوبة الاجتماعيات صف الثالث متوسط الدور التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DRWF2bm9vS21SRHNDWHBvcmplbFBfcUFHeHNaNkRJMjlPWkRlRmwzZmUyOXNuWXJSb0ZRaXRwZV9kRV9GenBHLU5IQm9yWjNWc1hiclFTS0Q0TV9Db0k0?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة الاجتماعيات الدور الأول 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZTXFXcEM3ZUhDdHpGZjdVZjZvd0x2aEM3RmFZaDBsQzB2RlZKTXNyckN2aFhHa0NMaTFfUkV5b3V3X2p1RnJ2YWxxNGJPTGNzU1lvSFhlMzhmSzJfalE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة واجوبة اجتماعيات الدور التمهيدي 2024 صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yeWNUdTBkSlJrenFIamlDakhUYTR3VHBtMU80T3A0bDVrOHlVV1ZweE1xWDdPdkIwNjFnMlFJOFdrbVcwcDFUbm42WWFLNjZzY3ZmVkhkRWlySHdLVVE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
 
 ## التربية الإسلامية
 
-- [التربية الاسلامية الثالث متوسط -مراجعة عامة - ج1 - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iM0dVdXVHV1RUSEFCbmEzMUZhTno5Tm9uek01OGZnZWhkUkpyOWNLNkx4RnFoWmJGdHhqSk5kYzFyaTA1MHh3N19wakxYeVNBbVpXT2g4ZnIxZE5u?oc=5)
-  - المصدر: YouTube
-  - نوع البحث: ملخص
 - [الملخص الذهبي 2023 التربية الاسلامية لصف الثالث المتوسط لامتحان نصف السنة مهمة جدا ضمان الدرجة الكاملة - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXeXpwSHBpVjYzeHZtajZBT1REZ0VYN2oxN21ETE9kRW1lNGhlc0h2LUF4WkhIVXA1YWoycWQzazdJUi01X3RBYjZIa3BXWGZ3cmNzTzd3VkhZbmMxMlE?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2023
+  - الدور: الدور غير محدد
   - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: ملخص
-- [مرشحات التربية الاسلامية للتمهيدي ٢٠٢٤ صف الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiZEFVX3lxTE84ZWlPSFBHcVlfX1ZKQzdoLUNDWXc5T0ZBeHJuU3BnVzlwVkR6eWdUbU80blAwaXFXY3VGMUdOcTRlanJPRFBTSXh6TEpDZjdTRUVxd1ZwZ1JpQVlobDk4amZBNVU?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [مرشحات مهمة 2023 تضمن الدرجة كاملة التربية الاسلامية ثالث متوسط ورقتين فقط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ManZqa0c3MnV1cC16UkpLcUJUQ2x6b1IyUFhXTS1uMlpWVUZoTV93VThPRUhVSld6OGU5bnVaZ2V1eGdQSFRkUHBlVmtBMzZBUzczSnRBYkhNZUxE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: مرشحات
-- [أسئلة الدور الثالث 2025 اسلامية وعربي الثالث المتوسط - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aU1ZwbHNsLWRMMm9ZTmVpX3h3RnctX3g1ZVlMMkZfR05EWVcwSnBUWW1Hc3JiclJXQlp0d2JiM2MtZlpMcG44VnJVakF1QUY2amE1d2libExWY3JyelE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
-- [أسئلة التربية الإسلامية الثالث المتوسط التمهيدي 2025 - الاستاذ احمد مهدي شلال عباس المهداوي](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZSGxmZGVDOV9TTDd1U1AtUS0wTFNDUmR2WlhHc2JHZFhCZDVMTk0tamc4WlhCTGFHRDZiTGI5VTlaX0tJWkVWd2ppb3h4LXAzS3VnX1VWR19QM3BxMEE?oc=5)
-  - المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-  - نوع البحث: اسئلة وزارية
+
+- [التربية الاسلامية الثالث متوسط -مراجعة عامة - ج1 - YouTube](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iM0dVdXVHV1RUSEFCbmEzMUZhTno5Tm9uek01OGZnZWhkUkpyOWNLNkx4RnFoWmJGdHhqSk5kYzFyaTA1MHh3N19wakxYeVNBbVpXT2g4ZnIxZE5u?oc=5)
+  - التصنيف: ملخصات ومراجعات
+  - السنة: 2025
+  - الدور: الدور غير محدد
+  - المصدر: YouTube
 
