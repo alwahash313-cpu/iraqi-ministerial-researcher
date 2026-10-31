@@ -8,7 +8,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -50,9 +50,14 @@ jobs:
       - name: Build APK
         run: flutter build apk --release
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - name: Rename APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk Albahith.apk
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: iraqi-ministerial-researcher-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
-          if-no-files-found: error
+          tag_name: build-${{ github.run_number }}
+          name: الباحث الوزاري - إصدار ${{ github.run_number }}
+          body: نسخة تطبيق الباحث الوزاري العراقي
+          files: Albahith.apk
+          prerelease: true
