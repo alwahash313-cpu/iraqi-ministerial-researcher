@@ -1,19 +1,10 @@
 # الباحث الوزاري العراقي
 
-تاريخ التحديث: 2026-10-31T14:31:22.930152+00:00
+تاريخ التحديث: 2026-11-01T05:34:04.798731+00:00
 
-عدد النتائج: 17
+عدد النتائج: 15
 
 ## اللغة العربية
-
-### مرشحات قواعد اللغة العربية ثالث متوسط النعت الصفة - YouTube
-
-- النوع: مرشحات
-- المصدر: YouTube
-- السنة: غير محددة
-- الدور: غير محدد
-- تاريخ النشر: 2026-02-01T08:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE52Y0pNNjctOHA5bTItd0Q0bWg5MmtuY2pwTWVkYV9TRGc0RlViR0FKNDhndTlkYWJ6ekFrQWVXdkl4VFlmcFFlb0RhZHZZS3ZVeUtGVG1QNDVoS1lG?oc=5
 
 ### افضل مراجعة مركزة للثالث متوسط | الاستاذ احمد الجاف - YouTube
 
@@ -32,15 +23,6 @@
 - الدور: غير محدد
 - تاريخ النشر: 2024-05-18T07:00:00+00:00
 - الرابط: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WZzVnc09Zbm54MlFQZ0JhaHF3WWl4eFdWdUxpcHJ0NW1JZlVrb1IwTzhaVkFfdW91TENMN2NRblhHUW1oREZuanI2S0xnSGRsdUh2Qm5LbldYUDQwOVRJTVNRcU8?oc=5
-
-### المراجعة المركزة ج2 قواعد الثالث المتوسط بعد التقليص2025/2026 أ.احمد محمد الجبوري - YouTube
-
-- النوع: ملخصات ومراجعات
-- المصدر: YouTube
-- السنة: 2025/2026
-- الدور: غير محدد
-- تاريخ النشر: 2026-05-06T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5T1lQUUhuS2JJNGRnclJqakhBcThLMzg4dkVoZ1cwd0wyaW9ldkhlZDlwUm5Nb29jYlowNVI5b3NRVzMxaVFPWnBvZ3EzZFpPaEVkdnkySU1ER3NS?oc=5
 
 ## اللغة الإنجليزية
 
@@ -82,15 +64,6 @@
 - تاريخ النشر: 2025-05-08T07:00:00+00:00
 - الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMb3dKckIwc01INllqTHpNUGE1MFYxdlJPMk9DbzI3Zk1UU1RBRU9fNngwZmYyeUZRNENpdTNPdjhMZHZOMzB4RU41ZEY2OXZXMGdvZ3ZnTkpqdUNQ?oc=5
 
-### المراجعة المركزة | الفصل الخامس: الهندسة والقياس م(2) | الصف الثالث متوسط | دفعة 2024 - YouTube
-
-- النوع: ملخصات ومراجعات
-- المصدر: YouTube
-- السنة: 2024
-- الدور: غير محدد
-- تاريخ النشر: 2024-04-20T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoZV94ZnM3bnlzYVdiLWdFZGd6VHlYYmVib0xRYnNrWThXZVRfZDJYa2xyaEJzU1BQU1hZaU5JcjlLbDA4bk5mN2FBNUpkSDlSZTA4UGtBWU45VkJp?oc=5
-
 ### رياضيات الثالث متوسط 2025/المراجعة المركزة/4/المتباينة المركبة - YouTube
 
 - النوع: ملخصات ومراجعات
@@ -101,6 +74,15 @@
 - الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jbHZTZVJWZUZIcDVKaUhtVTJval9wOHk1a25tdlM5Y3hNNHBVZjh3N1VkbTFDVy13amphY1RSMnZCT2E1cDV0Zy1IYi1hdXA5QkVodW95UGFRV3RP?oc=5
 
 ## الكيمياء
+
+### #مرشحات ليله الامتحان #مسائل الكيمياء #الفصل الاول #الثالث المتوسط - YouTube
+
+- النوع: مرشحات
+- المصدر: YouTube
+- السنة: غير محددة
+- الدور: غير محدد
+- تاريخ النشر: 2025-05-29T07:00:00+00:00
+- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jSnB5WEYtalFtZnNFWEhLYXdkM0swYnMwV0pjYXhoVkFKMVlieHF3aUN4OGFPWHZSUFpoMUZIODNxV3RpeWJLX25DWHpyaURYenpxZmZTb1p3NFI2?oc=5
 
 ### كيمياء الثالث متوسط / المراجعة المركزه / مراجعة ليلة الامتحان ضمان ال100 في ساعه واحدة فقط - YouTube
 
