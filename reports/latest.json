@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T05:34:04.798109+00:00",
+  "updated_at": "2026-11-02T05:49:49.617237+00:00",
   "current_year": 2026,
   "subjects": [
     "اللغة العربية",
@@ -17,7 +17,7 @@
     "ملخصات ومراجعات",
     "شروحات وحلول"
   ],
-  "total": 15,
+  "total": 14,
   "results": [
     {
       "subject": "الاجتماعيات",
@@ -66,19 +66,6 @@
       "published_at": "2024-05-11T07:00:00+00:00",
       "keyword": "مراجعة مركزة الثالث متوسط",
       "content_type": "مرشحات",
-      "search_group": "ملخصات ومراجعات",
-      "year": null,
-      "exam_round": null,
-      "is_current_year": false
-    },
-    {
-      "subject": "الرياضيات",
-      "title": "المراجعة المركزه رياضيات الثالث متوسط محاضرة الرابعه فصل السادس #رائد_جوهر - YouTube",
-      "source": "YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLa3E3QkZldkJsX05SOXRBdTMweTFQRjVvMXpfTThadXZUZWVTeWNUREUtcl9ZRm1MbHpvRFY2RVRieFVrVmdMVF84bFlGQzN5bXZZUWlia052SDkw?oc=5",
-      "published_at": "2024-09-01T07:00:00+00:00",
-      "keyword": "مراجعة مركزة الثالث متوسط",
-      "content_type": "ملخصات ومراجعات",
       "search_group": "ملخصات ومراجعات",
       "year": null,
       "exam_round": null,

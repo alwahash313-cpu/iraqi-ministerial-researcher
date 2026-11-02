@@ -1,8 +1,8 @@
 # الباحث الوزاري العراقي
 
-تاريخ التحديث: 2026-11-01T05:34:04.798731+00:00
+تاريخ التحديث: 2026-11-02T05:49:49.617861+00:00
 
-عدد النتائج: 15
+عدد النتائج: 14
 
 ## اللغة العربية
 
@@ -45,15 +45,6 @@
 - الدور: غير محدد
 - تاريخ النشر: 2024-05-11T07:00:00+00:00
 - الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE41MGlpaFZhd21OUVFkRU41M29fODBxemxjWXU1Umt0WHNLanc4ZkRlYWRwM1VIQ0tQTldpYmdmbXRJZ1BreXpmVHN1Um1IbGJVU3ZaeGFKbEZROWp5?oc=5
-
-### المراجعة المركزه رياضيات الثالث متوسط محاضرة الرابعه فصل السادس #رائد_جوهر - YouTube
-
-- النوع: ملخصات ومراجعات
-- المصدر: YouTube
-- السنة: غير محددة
-- الدور: غير محدد
-- تاريخ النشر: 2024-09-01T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLa3E3QkZldkJsX05SOXRBdTMweTFQRjVvMXpfTThadXZUZWVTeWNUREUtcl9ZRm1MbHpvRFY2RVRieFVrVmdMVF84bFlGQzN5bXZZUWlia052SDkw?oc=5
 
 ### مراجعة مركزة الثالث متوسط تضمن 40 الى50 درجة وبالتفصيل لمساعدة طلاب الخارجي - YouTube
 
