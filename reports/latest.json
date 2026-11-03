@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:49:49.617237+00:00",
+  "updated_at": "2026-11-03T12:32:22.758239+00:00",
   "current_year": 2026,
   "subjects": [
     "اللغة العربية",
@@ -17,7 +17,7 @@
     "ملخصات ومراجعات",
     "شروحات وحلول"
   ],
-  "total": 14,
+  "total": 11,
   "results": [
     {
       "subject": "الاجتماعيات",
@@ -86,6 +86,19 @@
     },
     {
       "subject": "الرياضيات",
+      "title": "#المراجعة الأقوى لمادة الرياضيات #للثالث المتوسط — الكتاب كاملًا في 3 ساعات فقط - YouTube",
+      "source": "YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50RFpmWVBOTjhmMzd1SjRxRnJHbGdYT18xYVd4bkJiLUlScXcxOWIwX0tRUmdtNHdST1VZc01yQVhoVHJYeXkxTkRaNUxJVUY5LUREenEtZ2ZWbVcw?oc=5",
+      "published_at": "2026-05-30T07:00:00+00:00",
+      "keyword": "مراجعة ليلة الامتحان",
+      "content_type": "ملخصات ومراجعات",
+      "search_group": "ملخصات ومراجعات",
+      "year": null,
+      "exam_round": null,
+      "is_current_year": false
+    },
+    {
+      "subject": "الرياضيات",
       "title": "رياضيات الثالث متوسط 2025/المراجعة المركزة/4/المتباينة المركبة - YouTube",
       "source": "YouTube",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jbHZTZVJWZUZIcDVKaUhtVTJval9wOHk1a25tdlM5Y3hNNHBVZjh3N1VkbTFDVy13amphY1RSMnZCT2E1cDV0Zy1IYi1hdXA5QkVodW95UGFRV3RP?oc=5",
@@ -130,58 +143,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JRmkxUjFBOVM0bEc0VmtYSGd3QlBKaHZJcUpDeTM1Wm8yUkRQcFNNcDcySVhsbU5pOU0zb2NkRnozbGxMTnh1MTN2a1UyeGFmeVZxLW93N0VCM21o?oc=5",
       "published_at": "2026-06-09T07:00:00+00:00",
       "keyword": "مراجعة ليلة الامتحان",
-      "content_type": "ملخصات ومراجعات",
-      "search_group": "ملخصات ومراجعات",
-      "year": null,
-      "exam_round": null,
-      "is_current_year": false
-    },
-    {
-      "subject": "الكيمياء",
-      "title": "مراجعة ليلة الامتحان كيمياء ثالث متوسط التعاريف والاستعمالات والخواص الفيزيائية والاختيارات والفراغات والتعاليل والمقارنات والكشوفات والتحاضير والمعادلات الكيميائية - الاستاذ احمد مهدي شلال عباس المهداوي",
-      "source": "الاستاذ احمد مهدي شلال عباس المهداوي",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00NWFQdG12NmRRblNMd1RzekUwYzBsYmJmbEtmZjV0Y3M0Z2VzaFg3MnNUcFpxYzhmR1NYMWk2aFNVVWZPVXV0VWhOc1JWbFZjQkItczYydDdkUm0xQ2JTcnpJeFg?oc=5",
-      "published_at": "2024-05-31T07:00:00+00:00",
-      "keyword": "مراجعة ليلة الامتحان",
-      "content_type": "ملخصات ومراجعات",
-      "search_group": "ملخصات ومراجعات",
-      "year": null,
-      "exam_round": null,
-      "is_current_year": false
-    },
-    {
-      "subject": "الكيمياء",
-      "title": "مراجعة ليلة الامتحان | كيمياء الثالث المتوسط | تبسيط بس تضبيط | حلقة 1 | منهج 2025 - YouTube",
-      "source": "YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Dam1JT05fSkRCOWFoQXE5TkliQXo0bzhLeWQtLWZvbEZpdVFBaGFTcEJmdWd5YkhxMWNtMWktQXkzMnVCa1NKSmhXa0xSUWx0eUltSDVFWjZJVjl5?oc=5",
-      "published_at": "2025-05-28T07:00:00+00:00",
-      "keyword": "مراجعة ليلة الامتحان",
-      "content_type": "ملخصات ومراجعات",
-      "search_group": "ملخصات ومراجعات",
-      "year": "2025",
-      "exam_round": null,
-      "is_current_year": false
-    },
-    {
-      "subject": "اللغة الإنجليزية",
-      "title": "​بـ 16دقيقة بس.. قفل درجات فرع المفردات والـ Match (مرشحات وزاري مؤكدة)انكليزي سادس اعدادي . - YouTube",
-      "source": "YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXTUQ3ZjN0SmJwalh3OXdIaGtJZzJ0b3VzdlB0aVBRa0ZwZGVhU00yVDVJWDgxQmRyeUx0NWgzN0xLSEZfX0lFUDBuWGJJeDlMa09VX1ZzcjBVTld0?oc=5",
-      "published_at": "2026-08-23T07:00:00+00:00",
-      "keyword": "مرشحات وزاري",
-      "content_type": "مرشحات",
-      "search_group": "مرشحات حديثة",
-      "year": null,
-      "exam_round": null,
-      "is_current_year": false
-    },
-    {
-      "subject": "اللغة العربية",
-      "title": "افضل مراجعة مركزة للثالث متوسط | الاستاذ احمد الجاف - YouTube",
-      "source": "YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56eTQwWTJhTnJkUzA0YW1KZ3JyTDVPOU44NjVQcjZYLUxpVEpmNkRXRXpkU1BxUHd5bHpwcjl4WkFGZEdjdVJheEJrc0NvNEpVNkFjZDVYUW1ST0gx?oc=5",
-      "published_at": "2026-03-31T07:00:00+00:00",
-      "keyword": "مراجعة مركزة الثالث متوسط",
       "content_type": "ملخصات ومراجعات",
       "search_group": "ملخصات ومراجعات",
       "year": null,

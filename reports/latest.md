@@ -1,19 +1,10 @@
 # الباحث الوزاري العراقي
 
-تاريخ التحديث: 2026-11-02T05:49:49.617861+00:00
+تاريخ التحديث: 2026-11-03T12:32:22.758848+00:00
 
-عدد النتائج: 14
+عدد النتائج: 11
 
 ## اللغة العربية
-
-### افضل مراجعة مركزة للثالث متوسط | الاستاذ احمد الجاف - YouTube
-
-- النوع: ملخصات ومراجعات
-- المصدر: YouTube
-- السنة: غير محددة
-- الدور: غير محدد
-- تاريخ النشر: 2026-03-31T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE56eTQwWTJhTnJkUzA0YW1KZ3JyTDVPOU44NjVQcjZYLUxpVEpmNkRXRXpkU1BxUHd5bHpwcjl4WkFGZEdjdVJheEJrc0NvNEpVNkFjZDVYUW1ST0gx?oc=5
 
 ### مراجعة ليلة الامتحان للصف الثالث المتوسط مادة اللغة العربية مهم للوزاري - الاستاذ احمد مهدي شلال عباس المهداوي
 
@@ -26,14 +17,7 @@
 
 ## اللغة الإنجليزية
 
-### ​بـ 16دقيقة بس.. قفل درجات فرع المفردات والـ Match (مرشحات وزاري مؤكدة)انكليزي سادس اعدادي . - YouTube
-
-- النوع: مرشحات
-- المصدر: YouTube
-- السنة: غير محددة
-- الدور: غير محدد
-- تاريخ النشر: 2026-08-23T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXTUQ3ZjN0SmJwalh3OXdIaGtJZzJ0b3VzdlB0aVBRa0ZwZGVhU00yVDVJWDgxQmRyeUx0NWgzN0xLSEZfX0lFUDBuWGJJeDlMa09VX1ZzcjBVTld0?oc=5
+لا توجد نتائج مطابقة حالياً.
 
 ## الرياضيات
 
@@ -54,6 +38,15 @@
 - الدور: التمهيدي
 - تاريخ النشر: 2025-05-08T07:00:00+00:00
 - الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMb3dKckIwc01INllqTHpNUGE1MFYxdlJPMk9DbzI3Zk1UU1RBRU9fNngwZmYyeUZRNENpdTNPdjhMZHZOMzB4RU41ZEY2OXZXMGdvZ3ZnTkpqdUNQ?oc=5
+
+### #المراجعة الأقوى لمادة الرياضيات #للثالث المتوسط — الكتاب كاملًا في 3 ساعات فقط - YouTube
+
+- النوع: ملخصات ومراجعات
+- المصدر: YouTube
+- السنة: غير محددة
+- الدور: غير محدد
+- تاريخ النشر: 2026-05-30T07:00:00+00:00
+- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE50RFpmWVBOTjhmMzd1SjRxRnJHbGdYT18xYVd4bkJiLUlScXcxOWIwX0tRUmdtNHdST1VZc01yQVhoVHJYeXkxTkRaNUxJVUY5LUREenEtZ2ZWbVcw?oc=5
 
 ### رياضيات الثالث متوسط 2025/المراجعة المركزة/4/المتباينة المركبة - YouTube
 
@@ -83,24 +76,6 @@
 - الدور: غير محدد
 - تاريخ النشر: 2026-06-09T07:00:00+00:00
 - الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JRmkxUjFBOVM0bEc0VmtYSGd3QlBKaHZJcUpDeTM1Wm8yUkRQcFNNcDcySVhsbU5pOU0zb2NkRnozbGxMTnh1MTN2a1UyeGFmeVZxLW93N0VCM21o?oc=5
-
-### مراجعة ليلة الامتحان كيمياء ثالث متوسط التعاريف والاستعمالات والخواص الفيزيائية والاختيارات والفراغات والتعاليل والمقارنات والكشوفات والتحاضير والمعادلات الكيميائية - الاستاذ احمد مهدي شلال عباس المهداوي
-
-- النوع: ملخصات ومراجعات
-- المصدر: الاستاذ احمد مهدي شلال عباس المهداوي
-- السنة: غير محددة
-- الدور: غير محدد
-- تاريخ النشر: 2024-05-31T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiZEFVX3lxTE00NWFQdG12NmRRblNMd1RzekUwYzBsYmJmbEtmZjV0Y3M0Z2VzaFg3MnNUcFpxYzhmR1NYMWk2aFNVVWZPVXV0VWhOc1JWbFZjQkItczYydDdkUm0xQ2JTcnpJeFg?oc=5
-
-### مراجعة ليلة الامتحان | كيمياء الثالث المتوسط | تبسيط بس تضبيط | حلقة 1 | منهج 2025 - YouTube
-
-- النوع: ملخصات ومراجعات
-- المصدر: YouTube
-- السنة: 2025
-- الدور: غير محدد
-- تاريخ النشر: 2025-05-28T07:00:00+00:00
-- الرابط: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Dam1JT05fSkRCOWFoQXE5TkliQXo0bzhLeWQtLWZvbEZpdVFBaGFTcEJmdWd5YkhxMWNtMWktQXkzMnVCa1NKSmhXa0xSUWx0eUltSDVFWjZJVjl5?oc=5
 
 ## الفيزياء
 
