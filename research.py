@@ -11,11 +11,12 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 
-# ==========================================
+# ==================================================
 # إعدادات المشروع
-# ==========================================
+# ==================================================
 
 CURRENT_YEAR = datetime.now().year
+
 BASE_DIR = Path(__file__).resolve().parent
 REPORT_DIR = BASE_DIR / "reports"
 
@@ -24,36 +25,76 @@ REPORT_MD = REPORT_DIR / "latest.md"
 
 RSS_URL = "https://news.google.com/rss/search"
 
+USER_AGENT = (
+    "Mozilla/5.0 "
+    "(compatible; IraqiMinisterialResearcher/2.0)"
+)
+
+REQUEST_TIMEOUT = 25
+REQUEST_DELAY = 0.5
+
+
+# ==================================================
+# المواد الدراسية
+# ==================================================
+
 SUBJECTS = {
     "اللغة العربية": [
-        "اللغة العربية", "عربي", "قواعد اللغة العربية", "الأدب العربي"
+        "اللغة العربية",
+        "عربي",
+        "قواعد اللغة العربية",
+        "الأدب العربي",
     ],
     "اللغة الإنجليزية": [
-        "اللغة الإنجليزية", "اللغة الانكليزية", "اللغة الإنكليزية",
-        "الانكليزي", "الإنجليزي", "انكليزي", "إنكليزي", "English"
+        "اللغة الإنجليزية",
+        "اللغة الانكليزية",
+        "اللغة الإنكليزية",
+        "الانكليزي",
+        "الإنجليزي",
+        "انكليزي",
+        "إنكليزي",
+        "English",
     ],
     "الرياضيات": [
-        "الرياضيات", "رياضيات", "الجبر", "الهندسة"
+        "الرياضيات",
+        "رياضيات",
+        "الجبر",
+        "الهندسة",
     ],
     "الكيمياء": [
-        "الكيمياء", "كيمياء"
+        "الكيمياء",
+        "كيمياء",
     ],
     "الفيزياء": [
-        "الفيزياء", "فيزياء"
+        "الفيزياء",
+        "فيزياء",
     ],
     "الأحياء": [
-        "الأحياء", "احياء", "علم الأحياء", "علم الحياة"
+        "الأحياء",
+        "احياء",
+        "علم الأحياء",
+        "علم الحياة",
     ],
     "الاجتماعيات": [
-        "الاجتماعيات", "اجتماعيات", "التاريخ",
-        "الجغرافية", "الجغرافيا", "الوطنية"
+        "الاجتماعيات",
+        "اجتماعيات",
+        "التاريخ",
+        "الجغرافية",
+        "الجغرافيا",
+        "الوطنية",
     ],
     "التربية الإسلامية": [
-        "التربية الإسلامية", "التربية الاسلامية",
-        "اسلامية", "إسلامية"
+        "التربية الإسلامية",
+        "التربية الاسلامية",
+        "اسلامية",
+        "إسلامية",
     ],
 }
 
+
+# ==================================================
+# أنواع المحتوى
+# ==================================================
 
 SEARCH_TYPES = {
     "مرشحات حديثة": [
@@ -80,6 +121,60 @@ SEARCH_TYPES = {
 }
 
 
+CONTENT_TYPES = [
+    "مرشحات",
+    "أسئلة وزارية سابقة",
+    "ملخصات ومراجعات",
+    "شروحات وحلول",
+]
+
+
+# ==================================================
+# استبعاد الدول والمناهج الأجنبية
+# ==================================================
+
+FOREIGN_INDICATORS = [
+    "مصر",
+    "المصري",
+    "المصرية",
+    "وزارة التربية والتعليم المصرية",
+    "الثالثة الاعدادية",
+    "الثالث الاعدادي",
+    "ثالثة اعدادي",
+    "تالتة اعدادي",
+    "الصف التاسع",
+    "التاسع سوريا",
+    "التاسع لبنان",
+    "البكالوريا السورية",
+    "التوجيهي",
+    "الأردن",
+    "الاردن",
+    "السعودية",
+    "السعودي",
+    "الكويت",
+    "الإمارات",
+    "الامارات",
+    "قطر",
+    "البحرين",
+    "عمان",
+    "المغرب",
+    "الجزائر",
+    "تونس",
+    "ليبيا",
+    "السودان",
+    "اليمن",
+    "المنهج المصري",
+    "المنهج السوري",
+    "المنهج الأردني",
+    "المنهج السعودي",
+    "المنهج الكويتي",
+]
+
+
+# ==================================================
+# كلمات الأخبار المستبعدة
+# ==================================================
+
 EXCLUDED_PHRASES = [
     "جدول الامتحانات",
     "جدول امتحانات",
@@ -96,22 +191,36 @@ EXCLUDED_PHRASES = [
     "كم يوم متبقي",
     "عطلة رسمية",
     "تعطيل الدوام",
-    "وزارة التربية تعلن",
     "التقديم للمدارس",
 ]
 
 
 EDUCATION_WORDS = [
-    "وزاري", "وزارية", "الثالث متوسط", "ثالث متوسط",
-    "ملخص", "مراجعة", "مرشحات", "اسئلة", "أسئلة",
-    "حلول", "شرح", "تمارين", "امتحان", "امتحانات",
-    "منهج", "كتاب", "فصل", "موضوع",
+    "وزاري",
+    "وزارية",
+    "الثالث متوسط",
+    "ثالث متوسط",
+    "الثالث المتوسط",
+    "ملخص",
+    "مراجعة",
+    "مرشحات",
+    "اسئلة",
+    "أسئلة",
+    "حلول",
+    "شرح",
+    "تمارين",
+    "امتحان",
+    "امتحانات",
+    "منهج",
+    "كتاب",
+    "فصل",
+    "موضوع",
 ]
 
 
-# ==========================================
-# معالجة النصوص
-# ==========================================
+# ==================================================
+# معالجة النصوص والأرقام
+# ==================================================
 
 def normalize(text):
     text = str(text or "").lower()
@@ -141,6 +250,7 @@ def normalize(text):
         text = text.replace(old, new)
 
     text = re.sub(r"\s+", " ", text)
+
     return text.strip()
 
 
@@ -153,12 +263,54 @@ def contains_any(text, words):
     )
 
 
-# ==========================================
+# ==================================================
+# تحديد الصف الدراسي العراقي
+# ==================================================
+
+def has_iraqi_grade(text):
+    normalized_text = normalize(text)
+
+    grade_patterns = [
+        r"الثالث\s+متوسط",
+        r"ثالث\s+متوسط",
+        r"الثالث\s+المتوسط",
+        r"الثالث\s+المتوسط\s+العراقي",
+    ]
+
+    return any(
+        re.search(pattern, normalized_text)
+        for pattern in grade_patterns
+    )
+
+
+def is_foreign_content(title, source=""):
+    text = normalize(title + " " + source)
+
+    return contains_any(text, FOREIGN_INDICATORS)
+
+
+def is_iraqi_content(title, source=""):
+    combined_text = title + " " + source
+
+    if is_foreign_content(title, source):
+        return False
+
+    # لا نقبل المحتوى الذي لا يذكر صف الثالث متوسط العراقي
+    if not has_iraqi_grade(combined_text):
+        return False
+
+    # عبارة الثالث متوسط مستخدمة في تسمية الصف العراقي.
+    # نستخدمها مع استبعاد مؤشرات الدول والمناهج الأجنبية.
+    return True
+
+
+# ==================================================
 # تحديد المادة
-# ==========================================
+# ==================================================
 
 def detect_subject(title):
     normalized_title = normalize(title)
+
     matches = []
 
     for subject, aliases in SUBJECTS.items():
@@ -166,36 +318,49 @@ def detect_subject(title):
             normalized_alias = normalize(alias)
 
             if normalized_alias in normalized_title:
-                matches.append((subject, len(normalized_alias)))
+                matches.append(
+                    (subject, len(normalized_alias))
+                )
 
     if not matches:
         return None
 
-    matches.sort(key=lambda item: item[1], reverse=True)
+    matches.sort(
+        key=lambda item: item[1],
+        reverse=True
+    )
+
     return matches[0][0]
 
 
-# ==========================================
-# تحديد نوع المحتوى
-# ==========================================
+# ==================================================
+# استبعاد الأخبار
+# ==================================================
 
 def is_excluded_news(title):
     return contains_any(title, EXCLUDED_PHRASES)
 
 
-def detect_type(title, search_group):
-    normalized_title = normalize(title)
+# ==================================================
+# تحديد نوع المحتوى
+# ==================================================
 
+def detect_type(title, search_group):
     if is_excluded_news(title):
         return None
 
+    text = normalize(title)
+
     prediction_words = [
-        "مرشحات", "مرشحه", "مرشحين",
-        "توقعات الامتحان", "توقعات وزاري",
+        "مرشحات",
+        "مرشحه",
+        "مرشحين",
+        "توقعات الامتحان",
+        "توقعات وزاري",
         "اسئله متوقعه",
     ]
 
-    if contains_any(normalized_title, prediction_words):
+    if contains_any(text, prediction_words):
         return "مرشحات"
 
     previous_question_words = [
@@ -209,7 +374,7 @@ def detect_type(title, search_group):
         "دفتر الاسئلة الوزارية",
     ]
 
-    if contains_any(normalized_title, previous_question_words):
+    if contains_any(text, previous_question_words):
         return "أسئلة وزارية سابقة"
 
     summary_words = [
@@ -221,7 +386,7 @@ def detect_type(title, search_group):
         "مراجعه نهائيه",
     ]
 
-    if contains_any(normalized_title, summary_words):
+    if contains_any(text, summary_words):
         return "ملخصات ومراجعات"
 
     explanation_words = [
@@ -233,15 +398,15 @@ def detect_type(title, search_group):
         "حل الكتاب",
     ]
 
-    if contains_any(normalized_title, explanation_words):
+    if contains_any(text, explanation_words):
         return "شروحات وحلول"
 
     return None
 
 
-# ==========================================
+# ==================================================
 # استخراج السنة الدراسية
-# ==========================================
+# ==================================================
 
 def detect_year(title):
     text = normalize(title)
@@ -266,9 +431,9 @@ def detect_year(title):
     return None
 
 
-# ==========================================
+# ==================================================
 # تحديد الدور الامتحاني
-# ==========================================
+# ==================================================
 
 def detect_exam_round(title):
     text = normalize(title)
@@ -288,19 +453,23 @@ def detect_exam_round(title):
     return None
 
 
-# ==========================================
-# التحقق من صلة النتيجة بالدراسة
-# ==========================================
+# ==================================================
+# التحقق من صلة النتيجة
+# ==================================================
 
-def is_relevant(title, subject, keyword):
+def is_relevant(title, subject, source=""):
     if not title or not subject:
         return False
 
     if is_excluded_news(title):
         return False
 
+    if not is_iraqi_content(title, source):
+        return False
+
     detected = detect_subject(title)
 
+    # إذا ظهرت مادة مختلفة نرفض النتيجة
     if detected and detected != subject:
         return False
 
@@ -311,33 +480,17 @@ def is_relevant(title, subject, keyword):
         for alias in SUBJECTS[subject]
     )
 
-    has_school_level = contains_any(
-        text,
-        [
-            "الثالث متوسط",
-            "ثالث متوسط",
-            "الثالث المتوسط",
-            "الثالث المتوسط العراقي",
-        ]
-    )
-
     has_education_topic = contains_any(
         text,
         EDUCATION_WORDS
     )
 
-    if has_subject and has_education_topic:
-        return True
-
-    if has_school_level and has_education_topic:
-        return True
-
-    return False
+    return has_subject and has_education_topic
 
 
-# ==========================================
+# ==================================================
 # قراءة تاريخ النشر
-# ==========================================
+# ==================================================
 
 def parse_published_date(value):
     if not value:
@@ -366,28 +519,28 @@ def parse_published_date(value):
             return None
 
 
-# ==========================================
-# طلب رابط RSS
-# ==========================================
+# ==================================================
+# جلب بيانات XML
+# ==================================================
 
 def fetch_xml(url):
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 "
-                "(compatible; IraqiMinisterialResearcher/1.0)"
-            )
+            "User-Agent": USER_AGENT
         }
     )
 
-    with urllib.request.urlopen(request, timeout=25) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=REQUEST_TIMEOUT
+    ) as response:
         return response.read()
 
 
-# ==========================================
+# ==================================================
 # البحث في Google News والمواقع
-# ==========================================
+# ==================================================
 
 def search_news(query):
     params = {
@@ -401,21 +554,42 @@ def search_news(query):
 
     try:
         xml_data = fetch_xml(url)
+
         root = ET.fromstring(xml_data)
+
         items = root.findall(".//item")
 
         results = []
 
         for item in items:
-            title = item.findtext("title", "").strip()
-            link = item.findtext("link", "").strip()
-            pub_date = item.findtext("pubDate", "").strip()
+            title = item.findtext(
+                "title",
+                ""
+            ).strip()
+
+            link = item.findtext(
+                "link",
+                ""
+            ).strip()
+
+            pub_date = item.findtext(
+                "pubDate",
+                ""
+            ).strip()
 
             source_element = item.find("source")
+
             source = ""
+            source_url = ""
 
             if source_element is not None:
-                source = (source_element.text or "").strip()
+                source = (
+                    source_element.text or ""
+                ).strip()
+
+                source_url = (
+                    source_element.attrib.get("url", "")
+                ).strip()
 
             if not title or not link:
                 continue
@@ -424,7 +598,10 @@ def search_news(query):
                 "title": title,
                 "url": link,
                 "source": source or "Google News",
-                "published_at": parse_published_date(pub_date),
+                "source_url": source_url,
+                "published_at": parse_published_date(
+                    pub_date
+                ),
             })
 
         return results
@@ -434,9 +611,9 @@ def search_news(query):
         return []
 
 
-# ==========================================
-# البحث عن فيديوهات YouTube
-# ==========================================
+# ==================================================
+# البحث في YouTube
+# ==================================================
 
 def search_youtube(query):
     params = {
@@ -450,6 +627,7 @@ def search_youtube(query):
 
     try:
         xml_data = fetch_xml(url)
+
         root = ET.fromstring(xml_data)
 
         namespace = {
@@ -458,22 +636,33 @@ def search_youtube(query):
 
         results = []
 
-        for entry in root.findall("atom:entry", namespace):
+        for entry in root.findall(
+            "atom:entry",
+            namespace
+        ):
             title = entry.findtext(
-                "atom:title", "", namespace
+                "atom:title",
+                "",
+                namespace
             ).strip()
 
             link_element = entry.find(
-                "atom:link", namespace
+                "atom:link",
+                namespace
             )
 
             video_url = ""
 
             if link_element is not None:
-                video_url = link_element.attrib.get("href", "")
+                video_url = link_element.attrib.get(
+                    "href",
+                    ""
+                )
 
             published = entry.findtext(
-                "atom:published", "", namespace
+                "atom:published",
+                "",
+                namespace
             )
 
             author = entry.findtext(
@@ -487,7 +676,10 @@ def search_youtube(query):
                     "title": title,
                     "url": video_url,
                     "source": author,
-                    "published_at": parse_published_date(published),
+                    "source_url": "https://www.youtube.com",
+                    "published_at": parse_published_date(
+                        published
+                    ),
                 })
 
         return results
@@ -497,38 +689,49 @@ def search_youtube(query):
         return []
 
 
-# ==========================================
-# تحديد المنصة
-# ==========================================
+# ==================================================
+# تحديد المنصة من المصدر الحقيقي
+# ==================================================
 
-def detect_platform(url, requested_platform):
-    lower_url = str(url).lower()
+def detect_platform(item):
+    url = str(item.get("url", "")).lower()
 
-    if "youtube.com" in lower_url or "youtu.be" in lower_url:
+    source_url = str(
+        item.get("source_url", "")
+    ).lower()
+
+    source = normalize(
+        item.get("source", "")
+    )
+
+    combined = url + " " + source_url + " " + source
+
+    if (
+        "youtube.com" in combined
+        or "youtu.be" in combined
+    ):
         return "YouTube"
 
-    if "t.me/" in lower_url or "telegram.me/" in lower_url:
+    if (
+        "t.me" in combined
+        or "telegram.me" in combined
+        or "telegram" in source
+    ):
         return "Telegram"
-
-    if requested_platform == "Telegram":
-        return "Telegram"
-
-    if requested_platform == "YouTube":
-        return "YouTube"
 
     return "Web"
 
 
-# ==========================================
-# تجهيز النتائج
-# ==========================================
+# ==================================================
+# البحث حسب المادة ونوع المحتوى والمنصة
+# ==================================================
 
 def collect_results():
     all_results = []
     seen_urls = set()
 
     for subject in SUBJECTS:
-        print(f"\nSearching: {subject}")
+        print(f"\nSearching subject: {subject}")
 
         for search_group, keywords in SEARCH_TYPES.items():
             for keyword in keywords:
@@ -536,11 +739,16 @@ def collect_results():
                 base_query = (
                     f'"الثالث متوسط" '
                     f'"{subject}" '
-                    f'"{keyword}"'
+                    f'"{keyword}" '
+                    f'العراق'
                 )
 
                 searches = [
-                    ("Web", search_news, base_query),
+                    (
+                        "Web",
+                        search_news,
+                        base_query,
+                    ),
                     (
                         "Telegram",
                         search_news,
@@ -551,12 +759,16 @@ def collect_results():
                         search_news,
                         base_query + " site:telegram.me",
                     ),
-                    ("YouTube", search_youtube, base_query),
+                    (
+                        "YouTube",
+                        search_youtube,
+                        base_query,
+                    ),
                 ]
 
                 for requested_platform, search_function, query in searches:
                     print(
-                        f"  Searching {requested_platform}: {query}"
+                        f"  {requested_platform}: {query}"
                     )
 
                     found_items = search_function(query)
@@ -564,11 +776,16 @@ def collect_results():
                     for item in found_items:
                         title = item["title"]
                         url = item["url"]
+                        source = item.get("source", "")
 
                         if not url or url in seen_urls:
                             continue
 
-                        if not is_relevant(title, subject, keyword):
+                        if not is_relevant(
+                            title,
+                            subject,
+                            source
+                        ):
                             continue
 
                         content_type = detect_type(
@@ -581,7 +798,27 @@ def collect_results():
 
                         detected_subject = detect_subject(title)
 
-                        if detected_subject and detected_subject != subject:
+                        if (
+                            detected_subject
+                            and detected_subject != subject
+                        ):
+                            continue
+
+                        platform = detect_platform(item)
+
+                        # لا ننسب نتيجة إلى Telegram
+                        # إلا إذا دل المصدر الحقيقي عليه
+                        if (
+                            requested_platform == "Telegram"
+                            and platform != "Telegram"
+                        ):
+                            continue
+
+                        # بحث YouTube يجب أن ينتج رابط فيديو
+                        if (
+                            requested_platform == "YouTube"
+                            and platform != "YouTube"
+                        ):
                             continue
 
                         seen_urls.add(url)
@@ -591,18 +828,19 @@ def collect_results():
                         result = {
                             "subject": subject,
                             "title": title,
-                            "source": item["source"],
-                            "platform": detect_platform(
-                                url,
-                                requested_platform
-                            ),
+                            "source": source,
+                            "platform": platform,
                             "url": url,
-                            "published_at": item["published_at"],
+                            "published_at": item.get(
+                                "published_at"
+                            ),
                             "keyword": keyword,
                             "content_type": content_type,
                             "search_group": search_group,
                             "year": year,
-                            "exam_round": detect_exam_round(title),
+                            "exam_round": detect_exam_round(
+                                title
+                            ),
                             "is_current_year": (
                                 year == str(CURRENT_YEAR)
                                 if year and "/" not in year
@@ -612,14 +850,14 @@ def collect_results():
 
                         all_results.append(result)
 
-                    time.sleep(1)
+                    time.sleep(REQUEST_DELAY)
 
     return all_results
 
 
-# ==========================================
+# ==================================================
 # حفظ JSON
-# ==========================================
+# ==================================================
 
 def save_json(results):
     REPORT_DIR.mkdir(
@@ -634,14 +872,13 @@ def save_json(results):
 
         "current_year": CURRENT_YEAR,
 
+        "country": "العراق",
+
+        "grade": "الثالث المتوسط العراقي",
+
         "subjects": list(SUBJECTS.keys()),
 
-        "content_types": [
-            "مرشحات",
-            "أسئلة وزارية سابقة",
-            "ملخصات ومراجعات",
-            "شروحات وحلول",
-        ],
+        "content_types": CONTENT_TYPES,
 
         "platforms": [
             "YouTube",
@@ -664,9 +901,9 @@ def save_json(results):
     )
 
 
-# ==========================================
+# ==================================================
 # حفظ تقرير Markdown
-# ==========================================
+# ==================================================
 
 def save_markdown(results):
     REPORT_DIR.mkdir(
@@ -676,6 +913,9 @@ def save_markdown(results):
 
     lines = [
         "# الباحث الوزاري العراقي",
+        "",
+        "- الدولة: العراق",
+        "- الصف: الثالث المتوسط",
         "",
         f"تاريخ التحديث: {datetime.now(timezone.utc).isoformat()}",
         "",
@@ -696,7 +936,7 @@ def save_markdown(results):
 
         if not subject_results:
             lines.extend([
-                "لا توجد نتائج مطابقة حالياً.",
+                "لا توجد نتائج عراقية مطابقة حالياً.",
                 "",
             ])
             continue
@@ -721,14 +961,15 @@ def save_markdown(results):
     )
 
 
-# ==========================================
+# ==================================================
 # تشغيل البحث
-# ==========================================
+# ==================================================
 
 def main():
-    print("=" * 45)
+    print("=" * 50)
     print("الباحث الوزاري العراقي")
-    print("=" * 45)
+    print("البحث مخصص للثالث المتوسط العراقي فقط")
+    print("=" * 50)
 
     results = collect_results()
 
@@ -743,11 +984,11 @@ def main():
     save_json(results)
     save_markdown(results)
 
-    print("\n" + "=" * 45)
-    print(f"Total results: {len(results)}")
+    print("\n" + "=" * 50)
+    print(f"Total Iraqi results: {len(results)}")
     print(f"JSON saved: {REPORT_JSON}")
     print(f"Markdown saved: {REPORT_MD}")
-    print("=" * 45)
+    print("=" * 50)
 
 
 if __name__ == "__main__":
